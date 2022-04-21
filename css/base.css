@@ -41,7 +41,7 @@ header h1 {
 
 header, footer {
     background-color: rgb(50, 74, 121);
-    color: #fff;
+    color: white;
     text-align: center;
     padding: .5rem;
     border-radius: 1rem;
@@ -66,17 +66,13 @@ main ul li{
 
 main ul{
     padding: 1rem;
-    border-top: 1px solid rgb(47, 56, 47);
-    border-bottom: 1px solid rgb(47, 56, 47);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 footer {
     margin: 1rem auto;
-    border: 1px solid #bbb;
     padding-top: .5rem;
-   
-    grid-template-columns: 200px 1fr;
-    align-items: center;
 }
 
 footer p:last-of-type{
