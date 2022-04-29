@@ -1,6 +1,5 @@
 /* The small viewport is the base css file for this assignment */
 
-
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +17,7 @@ a:hover {
 body {
     font-family: 'Lato', sans-serif;
     background-color: rgb(185, 219, 210);
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -44,28 +43,29 @@ footer {
 header h1 {
     color: white;
     font-family: 'Lobster Two', cursive;
-    font-size: 60px;
+    font-size: 65px;
     margin: 0;
     
+}
+header h2 {
+    margin: 10px;
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr;
-	margin: 0;
+	/*margin: 0;*/
 
-    /*padding: 1rem;
-    max-width: 800px;*/
+    /*padding: 1rem;*/
+    max-width: 1000px;
 }
 
-/* phone views **************************/
-
 main section {
-	margin: 0.5rem;
+	margin: 0.7rem;
 	padding: 0 1rem;
-	background-color: white;
-    border: 1.5px black solid;
-    border-radius: .5rem;
+	background-color: rgb(239, 238, 238);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 7px grey;
 }
 
 main h2 {
@@ -76,43 +76,38 @@ main h2 {
     padding: 10px;
     text-shadow: 0 3px 3px rgb(2 0 0 / 80%);
     border-radius: 1rem;
-    margin: 10px;
+    margin: 10px 0px 10px 0px;
 }
 
 main section h3 {
     color: black;
     text-shadow: 5px 5px 7px grey;
     margin: 0;
-    text-align: center;
+    text-align: left;
 
-    padding: 1rem;
-    min-height: 2rem;
   
+    min-height: 2rem;
 }
 
 section a {
     color: rgb(213, 103, 103);
-    text-align: center;
-    padding: .5rem;  
+    /*margin: auto;*/
+    /*text-align: center;
+    padding: .5rem;*/  
 }
 
 main section img {
     max-width: 100%;
-    display: block;
+    /*display: block;
     border-radius: 10px;
-    box-shadow: 5px 5px 7px grey;
-
+    box-shadow: 5px 5px 7px grey;*/
     margin: 1rem 0;
-    
-    
-    max-width: 100%;
 }
 
 main section p {
     margin: 15px;
-
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
     padding: .5rem;
 }
 
@@ -128,116 +123,3 @@ footer p:last-of-type{
     padding-top: .3rem;
     color: rgb(243, 133, 133);
 }
-*/
-/******************************************************/
-
-/************Orignial******************************************/
-/*
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-a:link {
-    color: rgb(126, 214, 243);
-}
-  
-a:hover {
-    color: purple;
-}
-
-
-header h2 {
-    margin: 20px;
-    color: rgb(126, 214, 243);
-}
-
-main h2 {
-    margin: 10px;
-}
-
-body {
-    font-family: 'Lato', sans-serif;
-    background-color: rgb(185, 219, 210);
-    max-width: 900px;
-    margin: auto;
-}
-
-img {
-    max-width: 100%;
-    display: block;
-    border-radius: 10px;
-   box-shadow: 5px 5px 7px grey;
-}
-
-header, footer {
-    background-color: rgb(50, 74, 121);
-    color: white;
-    text-align: center;
-    padding: .5rem;
-    margin: 10px;
-    border-radius: 1rem;
-    text-shadow: 0 3px 3px rgba(2, 0, 0, 0.8);
-    box-shadow: 5px 5px 7px grey;
-}
-
-header h1 {
-    color: white;
-    font-family: 'Lobster Two', cursive;
-    font-size: 60px;
-}
- 
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-	margin: 0;
-}
-
-main h2 {
-    color: rgb(126, 214, 243);
-    background-color: rgb(50, 74, 121);
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-    text-shadow: 0 3px 3px rgb(2 0 0 / 80%);
-    border-radius: 1rem;
-}
- 
-main h3 {
-    color: black;
-    text-shadow: 5px 5px 7px grey;
-    margin: 20px 10px;
-}
-
-main p {
-    margin: 15px;
-}
-
-main a {
-    color: rgb(213, 103, 103);
-}
-
-section { 
-    text-align: center;
-    margin-top: 10px; 
-    background-color: white;  
-    margin: 10px 10px;
-    padding: 10px;
-    border-radius: 1rem;
-    box-shadow: 5px 5px 7px grey;
-}
-
-footer a {
-    color: rgb(126, 214, 243);
-}
-
-footer {
-    padding-top: .5rem;
-}
-
-footer p:last-of-type{
-    padding-top: .3rem;
-    color: rgb(243, 133, 133);
-}
-*/
