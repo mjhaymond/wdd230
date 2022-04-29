@@ -49,6 +49,7 @@ header h1 {
 }
 header h2 {
     margin: 10px;
+    
 }
 
 main {
@@ -87,7 +88,7 @@ main section h3 {
 }
 
 section a {
-    color: rgb(176, 31, 31);
+    color: rgb(50, 74, 121);
 }
 
 main section img {
