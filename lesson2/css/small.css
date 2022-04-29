@@ -17,7 +17,7 @@ a:hover {
 body {
     font-family: 'Lato', sans-serif;
     background-color: rgb(185, 219, 210);
-    max-width: 1000px;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -54,10 +54,7 @@ header h2 {
 main {
     display: grid;
     grid-template-columns: 1fr;
-	/*margin: 0;*/
-
-    /*padding: 1rem;*/
-    max-width: 1000px;
+    max-width: 800px;
 }
 
 main section {
@@ -91,16 +88,10 @@ main section h3 {
 
 section a {
     color: rgb(213, 103, 103);
-    /*margin: auto;*/
-    /*text-align: center;
-    padding: .5rem;*/  
 }
 
 main section img {
     max-width: 100%;
-    /*display: block;
-    border-radius: 10px;
-    box-shadow: 5px 5px 7px grey;*/
     margin: 1rem 0;
 }
 
