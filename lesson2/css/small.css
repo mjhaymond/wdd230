@@ -7,11 +7,11 @@
 }
 
 a:link {
-    color: rgb(126, 214, 243);
+    color: rgb(50, 74, 121);
 }
-  
+ 
 a:hover {
-    color: purple;
+     color: rgb(196, 38, 6);
 }
 
 body {
@@ -103,15 +103,11 @@ main section p {
     padding: .5rem;
 }
 
-footer a {
-    color: rgb(126, 214, 243);
-}
-
 footer {
     padding-top: .5rem;
 }
 
 footer p:last-of-type{
     padding-top: .3rem;
-    color: rgb(243, 133, 133);
+    color: rgb(254, 174, 174);
 }
