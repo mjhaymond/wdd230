@@ -60,6 +60,10 @@ main h2{
     text-shadow: 0 3px 3px rgba(2, 0, 0, 0.4);
 }
 
+li a {
+    text-decoration: none;
+}
+
 main ul li{
     line-height: 1.5;
 }
@@ -68,10 +72,6 @@ main ul{
     padding: 1rem;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-}
-
-footer a {
-    color: rgb(126, 214, 243);
 }
 
 footer {

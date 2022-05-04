@@ -89,6 +89,7 @@ main section h3 {
 
 section a {
     color: rgb(50, 74, 121);
+    text-decoration: none;
 }
 
 main section img {
