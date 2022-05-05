@@ -5,6 +5,50 @@
     box-sizing: 0;
 }
 
+header {
+    font-size: 40px;
+}
+
+nav ul{
+    display: flex;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+body {
+	font-size: 16px;
+    font-family: 'Lato', sans-serif;
+	background-color: #F0F7F4;
+	color: #705D56;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+nav ul li { 
+	flex: 1 1 auto; 
+	
+} 
+
+nav ul li a {
+	display: block;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+	font-family: 'Lobster Two', cursive;
+	font-size: 30px;
+	background-color: #99E1D9;
+	color: #32292F;
+}
+
+header, footer {
+    display: flex;
+    background-color: #70ABAF;
+	font-family: 'Lobster Two', cursive;
+	color: #F0F7F4;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
 
 /*****Home Page***************************/
 
@@ -26,37 +70,3 @@
 
 
 
-/* Desktop Views **********Large css********/
-@media only screen and (min-width: 60em) {
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-
-	main section:nth-child(3) {
-		grid-column: span 1;
-	}
-}
-
-/* 'medium' media query section ************/
-@media only screen and (min-width: 32.5em) {
-	main {
-		grid-template-columns: 1fr 1fr;
-	}
-
-	main section:nth-child(2) {
-		display: block;
-	}
-
-	main section:nth-child(3) {
-		grid-column: span 2;
-	}
-
-	main section picture {
-		display: block;
-	}
-	main section picture img {
-		width: 100%;
-		height: auto;
-		border: 1px solid #bbb;
-	}
-}
