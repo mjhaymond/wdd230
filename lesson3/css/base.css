@@ -37,14 +37,14 @@ nav ul li a {
 	font-family: 'Lobster Two', cursive;
 	font-size: 30px;
 	background-color: #99E1D9;
-	color: white;
+	color: #32292F;
 }
 
 header, footer {
     display: flex;
     background-color: #70ABAF;
 	font-family: 'Lobster Two', cursive;
-	color: #32292F;
+	color: white;
     align-items: center;
     justify-content: center;
     padding: 10px;
