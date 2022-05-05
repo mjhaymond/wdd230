@@ -6,7 +6,7 @@
 }
 
 header {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 nav ul{
@@ -15,13 +15,42 @@ nav ul{
 	overflow: hidden;
 }
 
+nav a:hover {
+    --d: 50%;
+}
+
 body {
 	font-size: 16px;
     font-family: 'Lato', sans-serif;
-	background-color: #F0F7F4;
+	background-color: white;
 	color: #705D56;
     max-width: 900px;
     margin: 0 auto;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+    font-size: 1rem;
+
+	/*margin: 1rem;
+    border: 1px solid #32292F;
+    padding: 1rem;
+    background-color: #F0F7F4;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);*/
+}
+
+main section {
+    margin: 1rem;
+    border: 1px solid #000000;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);
+}
+
+main section picture img {
+	width: auto;
+	height: auto;
 }
 
 nav ul li { 
@@ -38,17 +67,35 @@ nav ul li a {
 	font-size: 30px;
 	background-color: #99E1D9;
 	color: #32292F;
+	text-shadow: 0 3px 3px white;
+}
+
+h2 {
+	color: #32292F;
+	margin: 1rem;
+}
+
+h3 {
+	margin: 1rem;
+	color: #477f83;
+}
+
+p {
+	margin: 1rem;
 }
 
 header, footer {
     display: flex;
-    background-color: #70ABAF;
+    background-color: #477f83;
 	font-family: 'Lobster Two', cursive;
 	color: white;
     align-items: center;
     justify-content: center;
     padding: 10px;
+	text-shadow: 0 3px 3px #32292F;
 }
+
+
 
 /*****Home Page***************************/
 
