@@ -10,13 +10,14 @@ header {
 }
 
 nav ul{
-    display: flex;
 	list-style-type: none;
 	overflow: hidden;
 }
 
 nav a:hover {
-    --d: 50%;
+    /*--d: 50%;*/
+	background: white;
+	
 }
 
 body {

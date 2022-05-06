@@ -4,13 +4,9 @@
 		grid-template-columns: 1fr 1fr;
 	}
 
-	article:nth-child(2) {
-		display: block;
-	}
-
-	section:nth-child(3) {
-		grid-column: span 2;
-	}
+    nav ul {
+        display: flex;
+    }
 
     h1 {
         font-size: 2.5rem;
@@ -27,8 +23,5 @@
     }
     main {
         grid-template-columns: 1fr 1fr;
-    }
-    section:nth-child(3) {
-        grid-column: span 1;
     }
 }
