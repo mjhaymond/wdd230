@@ -14,6 +14,23 @@ nav ul{
 	overflow: hidden;
 }
 
+nav ul li { 
+	flex: 1 1 auto; 
+	
+} 
+
+nav ul li a {
+	display: block;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+	font-family: 'Lobster Two', cursive;
+	font-size: 1.5rem;
+	background-color: #99E1D9;
+	color: #32292F;
+	text-shadow: 0 3px 3px white;
+}
+
 nav a:hover {
     /*--d: 50%;*/
 	background: white;
@@ -42,34 +59,12 @@ main section {
     background-color: white;
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
 }
-/*
-main picture img {
-	width: auto;
-	height: auto;
-}*/
 
 img {
 	width: 100%;
     height: auto;
     border: 1px solid #000000;
     box-shadow: 3px 3px 10px rgb(54 54 54);
-}
-
-nav ul li { 
-	flex: 1 1 auto; 
-	
-} 
-
-nav ul li a {
-	display: block;
-	text-align: center;
-	padding: 1rem;
-	text-decoration: none;
-	font-family: 'Lobster Two', cursive;
-	font-size: 1rem;
-	background-color: #99E1D9;
-	color: #32292F;
-	text-shadow: 0 3px 3px white;
 }
 
 h2 {
@@ -82,7 +77,7 @@ h3 {
 	color: #477f83;
 }
 
-p {
+p, main li {
 	margin: 1rem;
 }
 
