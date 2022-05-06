@@ -22,7 +22,7 @@ nav a:hover {
 body {
 	font-size: 16px;
     font-family: 'Lato', sans-serif;
-	background-color: white;
+	background-color: #F0F7F4;
 	color: #705D56;
     max-width: 900px;
     margin: 0 auto;
@@ -32,12 +32,6 @@ main {
 	display: grid;
 	grid-template-columns: 1fr;
     font-size: 1rem;
-
-	/*margin: 1rem;
-    border: 1px solid #32292F;
-    padding: 1rem;
-    background-color: #F0F7F4;
-    box-shadow: 3px 3px 10px rgb(54, 54, 54);*/
 }
 
 main section {
@@ -47,10 +41,17 @@ main section {
     background-color: white;
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
 }
-
-main section picture img {
+/*
+main picture img {
 	width: auto;
 	height: auto;
+}*/
+
+img {
+	width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+    box-shadow: 3px 3px 10px rgb(54 54 54);
 }
 
 nav ul li { 
@@ -64,7 +65,7 @@ nav ul li a {
 	padding: 1rem;
 	text-decoration: none;
 	font-family: 'Lobster Two', cursive;
-	font-size: 30px;
+	font-size: 1rem;
 	background-color: #99E1D9;
 	color: #32292F;
 	text-shadow: 0 3px 3px white;
