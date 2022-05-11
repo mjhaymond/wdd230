@@ -10,6 +10,7 @@
     This website helps business owners network together, helps people find reliable business,
     helps new members of the community learn more about the business in their area." />
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lobster+Two&display=swap" rel="stylesheet">
@@ -20,38 +21,38 @@
     <link rel="stylesheet" href="css/normalize.css" />
 </head>
 
+<!-- HEADER HERE -->
+
 <body>
     <header>
-        <div id="logo">
-            <picture>
-                <img src="images/mount_saratoga_logo_brown2.png" alt="Mount Saratoga Logo">
-            </picture>
-            <section class="headings">
-                <h1>Mount Saratoga Chamber of Commerce</h1>
-                <h2 class="tagLine">"Building a strong community together!"</h2>
-            </section>
-        </div>
+        <picture>
+            <a href="index.html" id="logo1" class="active">
+                <img src="images/mount_saratoga_logo_brown3.png" alt="Mount Saratoga Logo"></a>
+        </picture>
+
+        <h1>Mount Saratoga <span id="cc"><br>Chamber of Commerce</span></h1>
+
         <div class="social">
-            <picture>
-                <img src="images/Facebook_Logo_(2019).png" alt="Facebook Logo" width="32px">
-                <img src="images/rsz_pngwingcom.png" alt="Linkedin Logo" width="32px">
-            </picture>
+            <a href="https://facebook.com" target="blank"><img src="images/Facebook_Logo_(2019).png" alt="Facebook Logo"
+                    width="32"></a>
+            <a href="https://linkedin.com" target="blank"><img src="images/rsz_pngwingcom.png" alt="Linkedin Logo"
+                    width="35"></a>
         </div>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776</span>
+                <span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p>
+            <span id="currentDate">Wednesday, 11 May 2022</span>
+        </p>
     </header>
-
-    <!-- NAVIGATION HERE -->
-    <nav>
-        <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
-        <ul id="primaryNav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="membership.html">Membership</a></li>
-            <li><a href="visitorInformation.html">Visitor Information</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
 
     <!-- CONTENT HERE -->
     <main>
@@ -82,12 +83,35 @@
 
     <!-- FOOTER HERE -->
     <footer>
-        <picture>
-            <img src="images/mount_saratoga_logo_brown2.png" alt="Mount Saratoga Logo">
-        </picture>
-        <p>
+        <section class="foot1">
+            <div>
+                <picture id="logo2">
+                    <img src="images/mount_saratoga_logo_brown3.png" alt="Mount Saratoga Logo" width="125" height="125">
+                </picture>
+            </div>
+            <div class="address">
+                <h3>Mount Saratoga Chamber of Commerce</h3>
+                <p>
+                    N Mount Saratoga Blvd<br>
+                    Mount Saratoga, Utah 38459
+                </p>
+            </div>
+            <div class="urlsite">
+                <p>
+                    www.mountsaratogacc.com<br>
+                    801-566-4346
+                </p>
+                <a href="https://www.google.com/maps/place/N+Mount+Saratoga+
+                Blvd,+Saratoga+Springs,+UT/@40.3708664,-111.9556582,17z/data=
+                !3m1!4b1!4m5!3m4!1s0x874d7c2ac07631df:0x2a09fbc324a34b9a!8m2!
+                3d40.3708664!4d-111.9556582">
+                    <i class="material-icons">&#xe567;</i>Location Map</a>
+            </div>
+        </section>
+        <p id="lastline">
             &copy;<span id="currentYear"></span> Mount Saratoga Chamber |
-            Merry Haymond | WDD 230 Project | Last Updated: <span id="updatedDate"></span>
+            Merry Haymond | WDD 230 Project |
+            Last Updated: <span id="updatedDate"></span>
         </p>
     </footer>
     <script src="js/scripts.js"></script>

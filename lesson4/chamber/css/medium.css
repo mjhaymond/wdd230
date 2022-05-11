@@ -1,27 +1,28 @@
-/*35rem is also 566px when basefont is 16px*/
+
 @media only screen and (min-width: 600px) {
 
-    nav button {display: none;}
-    
-    
-    nav ul#primaryNav {
-        display: flex;
-        justify-content: center;
-        margin-left: 2vw;
-        border-left: 1px solid rgba(0,0,0,0.3);
-    }
-    
-    nav ul li a {
-        border: none;
-        border-right: 1px solid rgba(0,0,0,0.3);
-    }
-    
-    .containers {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(5, 125px);
-        gap: 10px;
-        padding: 10px;
+header {
+    grid-template-columns: 120px 1fr 85px 100px;
+    gap: 20px;
+}
+
+h1 {
+    font-size:  40px;
+    line-height: .6;
+    font-family: Lobster Two, cursive;
+}
+
+#cc {
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+}
+
+/*** TABLET LAYOUT ***/
+.containers {
+    display: grid;
+    grid-template-columns: 425px 1fr;
+    gap: 10px;
+    padding: 10px;
 }
 
 .box1 {
@@ -47,12 +48,47 @@
 .box5 {
     grid-column: 1/3;
     grid-row: 3/4;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    
+    gap: 10px;
+    padding: 10px; 
 }
 
 .box6 {
     display: grid;
     grid-column: 1/3;
     grid-row: 4/5;
+}
+  /*  
+#spot1 {
+    border: 2px solid #000000;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#spot2 {
+    border: 2px solid #000000;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#spot3 {
+    display: none;
+}*/
+
+/*** FOOTER LAYOUT ***/
+.foot1 {
+    display: grid;
+    grid-template-columns: 140px 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    padding: 15px 50px 10px 50px;
+    align-items: center;
+}
+
+.urlsite {
+    text-align: center;
 }
     
     } 

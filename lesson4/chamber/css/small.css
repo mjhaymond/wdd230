@@ -6,29 +6,56 @@
 }
 
 body {
-    font-size: 14px;
+    font-size: 16px;
     font-family: Lato, sans-serif;
     max-width: 900px;
     margin: 0 auto;
 }
 
 img {
-    max-width: 25%;
+    max-width: 100%;
     height: auto;
 }
 
-main {
-    background-color: whitesmoke;
+header {
+    display: grid;
+    grid-template-columns: 75px 1fr 60px 40px;
+    grid-template-rows: 1fr 20px;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    text-align: center;   
 }
 
-/* Hamburger Menu */
-
-h1, p {
-    margin: 10px;
+header div {
+    display: flex; 
+    gap: 5px;
 }
 
+header p {
+    grid-row: 2/3;
+    grid-column: 1/5;
+    align-items: left; 
+    background-color: rgb(216, 215, 215);
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: .6;
+    padding: 5px;
+    font-family: Lobster Two, cursive;
+}
+
+#cc {
+    font-size: 18px;
+    font-family: Lato, sans-serif;
+}
+
+/*** HAMBURGER MENU ***/
 nav {
-    background-color: #eee;
+    display: block;
 }
 
 nav ul {
@@ -38,10 +65,10 @@ nav ul {
 }
 
 nav button{
-    margin: .2rem 2vw;
+    margin: .3rem 1vw;
     background: transparent;
     border: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #555;
 }
 
@@ -52,12 +79,12 @@ nav ul li a {
     color: #333;
     border-top: 1px solid rgba(0,0,0,0.5);
 }
-
+/*
 nav ul li.active a {
     background-color: rgba(0,0,0,0.2);
     color: #fff;
 }
-
+*/
 nav ul li a:hover {
     background-color: rgba(0,0,0,0.3);
 }
@@ -72,8 +99,11 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
-/* Mobile Layout (Grid) */
+main {
+    background-color: whitesmoke;
+}
 
+/* Mobile Layout (Grid) */
 .containers {
     display: grid;
     grid-template-columns: 1fr;
@@ -86,36 +116,65 @@ nav ul.open {display: block;}
     border: 2px solid #000000;
     background-color: white;
 }
-.box6 {
-    display: none;
-    }
 
-/*
 .box5 {
-grid-row: 5/7;
-}
-
-
-
-#spot1, #spot2 {
-    border: 2px solid #000000;
-    background-color: white;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 125px);
+    grid-column: 1fr;
+    grid-row: 1fr 1fr;
     gap: 10px;
     padding: 10px;
-    
+}
+
+.box6 {
+    display: none;
 }
 
 #spot1 {
-    grid-row: 5/6;
+    border: 2px solid #000000;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 #spot2 {
-    grid-row: 6/7;
+    border: 2px solid #000000;
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 
 #spot3 {
     display: none;
-}*/
+}
+
+/*** Selectors ***/
+.material-icons {
+    color: red;
+}
+
+/*** Footer ***/
+footer section {
+    display: inherit;
+    text-align: center;
+    padding: 10px;
+}
+
+.address {
+    line-height: 1.2rem;
+    padding-bottom: 10px;
+    /*font-weight: 600;*/
+}
+
+footer a {
+    text-decoration: none;
+   
+}
+
+footer .urlsite {
+    line-height: 2rem;
+}
+
+footer #lastline {
+    text-align: center;
+    font-size:  14px;
+    padding: 10px;
+
+}
