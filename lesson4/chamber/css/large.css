@@ -1,7 +1,7 @@
 @media only screen and (min-width: 960px) {
 
 header {
-    grid-template-columns: 155px 1fr 420px 70px;
+    grid-template-columns: 155px 1fr 1fr 90px;
 }
 
 header div {
@@ -13,10 +13,16 @@ nav button {
     display: none;
 }
 
+#primaryNav {
+    background: none;
+    border: none;
+}
+
 nav ul#primaryNav {
     display:flex;
     justify-content: center;
     align-content: center;
+    position: unset;
 }
 
 nav ul li a {

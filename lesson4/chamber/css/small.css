@@ -8,7 +8,7 @@
 body {
     font-size: 16px;
     font-family: Lato, sans-serif;
-    max-width: 900px;
+    max-width: 1160px;
     margin: 0 auto;
 }
 
@@ -30,6 +30,7 @@ header {
 header div {
     display: flex; 
     gap: 5px;
+    margin: auto;
 }
 
 header p {
@@ -56,12 +57,20 @@ h1 {
 /*** HAMBURGER MENU ***/
 nav {
     display: block;
+    position: relative;
 }
 
 nav ul {
     list-style-type: none;  /* remove list dots */
     padding: 0;  /* remove padding on right side of list items */
     margin: 0;  /* remove margin from hamburger icon and home button */
+}
+
+#primaryNav {
+    position: absolute;
+    right: 10px;
+    border: 1px solid #000;
+    background: rgb(210, 209, 209);
 }
 
 nav button{
