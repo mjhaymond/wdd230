@@ -1,3 +1,11 @@
+/* Get Current Date for Header */
+const currentDateSpan = document.querySelector("#currentDate");
+
+const now = new Date();
+currentDateSpan.textContent = new Intl.DateTimeFormat("en-GB", {
+  dateStyle: "full",
+}).format(now);
+
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("open");
     document.getElementById("hamburgerBtn").classList.toggle("open");
