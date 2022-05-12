@@ -10,6 +10,7 @@ body {
     font-family: Lato, sans-serif;
     max-width: 1160px;
     margin: 0 auto;
+    background-color: #e5f0f0;
 }
 
 img {
@@ -24,7 +25,10 @@ header {
     gap: 10px;
     align-items: center;
     padding: 10px;
-    text-align: center;   
+    text-align: center;
+    background-color: #355f5f;
+    color: #ffffff;
+    text-shadow: 0 3px 3px #32292F;
 }
 
 header div {
@@ -36,10 +40,8 @@ header div {
 header p {
     grid-row: 2/3;
     grid-column: 1/5;
-    align-items: left; 
     background-color: rgb(216, 215, 215);
     border: 1px solid #000000;
-    padding: 10px;
 }
 
 h1 {
@@ -78,14 +80,18 @@ nav button{
     background: transparent;
     border: none;
     font-size: 1.5rem;
-    color: #555;
+    color: #ffffff;
 }
 
 nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #333;
+    font-family: 'Lobster Two', cursive;
+    color: #32292f;
+    text-shadow: 0 3px 3px white;
+    background-color: #B1D3D3;
+    border: 1px solid ;
     border-top: 1px solid rgba(0,0,0,0.5);
 }
 /*
@@ -95,7 +101,7 @@ nav ul li.active a {
 }
 */
 nav ul li a:hover {
-    background-color: rgba(0,0,0,0.3);
+    background-color: #ffffff;
 }
 
 nav ul { display: none;}
