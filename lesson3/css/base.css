@@ -7,6 +7,11 @@
 header {
     font-size: 30px;
 	text-align: center;
+	background-color: #355F5F;
+	font-family: 'Lobster Two', cursive;
+	color: white;
+    padding: 10px;
+	text-shadow: 0 3px 3px #32292F;
 }
 
 nav ul{
@@ -48,7 +53,6 @@ body {
 main {
 	display: grid;
 	grid-template-columns: 1fr;
-    font-size: 1rem;
 }
 
 main section {
@@ -80,7 +84,7 @@ p, main li {
 	margin: 1rem;
 }
 
-header, footer {
+footer {
     display: flex;
     background-color: #355F5F;
 	font-family: 'Lobster Two', cursive;
