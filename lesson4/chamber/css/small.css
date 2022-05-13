@@ -44,7 +44,7 @@ header p {
     text-align: center;
     background-color: #b1d3d3;
     color: #32292F;
-    border: 1px solid #32292f;
+    border: 2px solid #32292f;
     padding: 5px 0px;
 }
 
@@ -57,7 +57,7 @@ h1 {
 }
 
 h2 {
-
+color: #32292f;
 }
 
 #cc {
@@ -81,7 +81,7 @@ nav ul {
 #primaryNav {
     position: absolute;
     right: 10px;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
 }
 
 #primaryNav .active {
@@ -148,7 +148,7 @@ containers div {
 }
 
 .box1, .box2, .box3, .box4, .box5, .box6 {
-    border: 2px solid #000000;
+    border: 2px solid #32292f;
     background-color: white;
     padding: 10px;
 }

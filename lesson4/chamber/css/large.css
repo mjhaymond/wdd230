@@ -23,6 +23,7 @@ nav ul#primaryNav {
     justify-content: center;
     align-content: center;
     position: unset;
+    border: 2px solid #32292f;
 }
 
 nav ul li a {
