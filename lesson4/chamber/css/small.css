@@ -135,7 +135,7 @@ main {
 .containers {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 125px);
+    grid-template-rows: repeat(5, 125px);
     gap: 20px;
     padding: 20px;
 }
