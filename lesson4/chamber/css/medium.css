@@ -21,8 +21,8 @@ h1 {
 .containers {
     display: grid;
     grid-template-columns: 425px 1fr;
-    gap: 10px;
-    padding: 10px;
+    gap: 20px;
+    padding: 20px;
 }
 
 .box1 {
