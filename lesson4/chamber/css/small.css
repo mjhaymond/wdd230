@@ -129,13 +129,16 @@ nav ul.open {display: block;}
 
 main {
     background-color: #e5f0f0;
+    border-top: 5px solid #ffffff;
+    border-bottom: 5px solid #ffffff;
+    /*padding: 1rem;*/
 }
 
 /* Mobile Layout (Grid) */
 .containers {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 125px);
+    grid-template-rows: repeat(6, 125px);
     gap: 20px;
     padding: 20px;
 }
