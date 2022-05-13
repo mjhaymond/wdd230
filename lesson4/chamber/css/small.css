@@ -56,8 +56,9 @@ h1 {
     text-shadow: 0 3px 3px #32292F;
 }
 
-h2 {
+h2, h3 {
 color: #32292f;
+font-family: Lobster Two, cursive;
 }
 
 #cc {
