@@ -48,16 +48,33 @@ header p {
     padding: 5px 0px;
 }
 
+
+/*** Town Meeting Info ***/
+.meetingimage {
+    position: relative;
+}
+
 .meetingbox {
-    margin: 20px auto;
-    padding: 10px;
-    text-align: center;
-    background-color: #b1d3d3;
+    margin: 10px;
     border: 2px solid #32292f;
-    width: 1060px;
-    height: 300px;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);
+   
+}
+
+.meetinginfo {
+    position: absolute;
+    Top: 10px;
+    left: 40px;
+    margin: 10px ;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 2px solid #32292f;
+    width: 800px;
+    text-align: center;
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
 }
+/*** Town Meeting Info End ***/
+
 
 h1 {
     font-size: 24px;
