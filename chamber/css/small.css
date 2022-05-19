@@ -49,31 +49,7 @@ header p {
 }
 
 
-/*** Town Meeting Info ***/
-.meetingimage {
-    position: relative;
-}
 
-.meetingbox {
-    margin: 10px;
-    border: 2px solid #32292f;
-    box-shadow: 3px 3px 10px rgb(54, 54, 54);
-   
-}
-
-.meetinginfo {
-    position: absolute;
-    Top: 10px;
-    left: 40px;
-    margin: 10px ;
-    padding: 10px;
-    background-color: #ffffff;
-    border: 2px solid #32292f;
-    width: 800px;
-    text-align: center;
-    box-shadow: 3px 3px 10px rgb(54, 54, 54);
-}
-/*** Town Meeting Info End ***/
 
 
 h1 {
@@ -114,7 +90,7 @@ nav ul {
 }
 
 #primaryNav .active {
-    text-decoration: underline;
+    text-decoration: 2px overline solid #32292f;
     font-weight: bold;
 }
 
@@ -163,6 +139,23 @@ main {
     /*padding: 1rem;*/
 }
 
+/* Meeting Banner */
+#banner {
+    text-align: center;
+    background: linear-gradient(0.25turn, #b1d3d3, #faf2d6, #ffffff, #faf2d6, #b1d3d3);
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-top : 3px dashed #322932;
+    border-bottom : 3px dashed #322932;
+    line-height: 1.1;
+}
+
+#close {
+    padding: 3px;
+    background-color: #f7c72b;
+}
+
 /* Mobile Layout (Grid) */
 .containers {
     display: grid;
@@ -177,6 +170,28 @@ main {
     background-color: #ffffff;
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
     padding: 10px;
+}
+
+/**** Hero Image Box ****/
+.welcome {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: white;
+}
+
+.box1 {
+    position: relative;
+}
+
+.joinbtn {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    background-color: yellow;
+    border: 1px solid blue;
+    padding: 10px;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);
 }
 
 .box1, .box2, .box3, .box4, .box5, .box6 {

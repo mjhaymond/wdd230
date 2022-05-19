@@ -22,3 +22,14 @@ document.getElementById("currentYear").textContent = newDate.getFullYear();
 let lastUpdated = document.lastModified;
 
 document.getElementById("updatedDate").textContent = lastUpdated;
+
+/* Banner on Mondays & Tuesdays */
+if(now.getDay() === 1 || 2) {
+  document.getElementById("banner").style.display = "block";
+}
+
+const close = document.querySelector("#close");
+
+close.addEventListener("click", () => {
+  banner.style.display = "none";
+});
