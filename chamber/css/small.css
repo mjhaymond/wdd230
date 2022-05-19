@@ -14,7 +14,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border: 1px solid #32292f;
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
@@ -154,6 +154,7 @@ main {
 #close {
     padding: 3px;
     background-color: #f7c72b;
+    border-radius: 5px 5px 5px 5px;
 }
 
 /* Mobile Layout (Grid) */
@@ -172,27 +173,87 @@ main {
     padding: 10px;
 }
 
-/**** Hero Image Box ****/
+/************ Box-1 WELCOME-HERO IMAGE ************/
 .welcome {
     position: absolute;
     bottom: 30px;
-    left: 30px;
+    left: 40px;
     color: white;
+    text-shadow: 0 3px 3px #32292F;
 }
 
 .box1 {
     position: relative;
 }
 
+.box1 img {
+    object-fit: cover;
+    height: 100%;
+}
+
 .joinbtn {
     position: absolute;
     top: 30px;
-    right: 40px;
-    background-color: yellow;
-    border: 1px solid blue;
-    padding: 10px;
+    left: 40px;
+    background-color: #f7c72b;
+    border: 1px solid #32292f;
+    padding: 7px;
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
+    border-radius: 5px 5px 5px 5px;
 }
+
+.joinbtn a {
+    color: #32292f;
+    text-decoration: none;
+}
+
+.containers .joinbtn:hover {
+    background-color: #f9dd83;
+}
+/*************** END BOX-1 ******************/
+
+
+/************** BOX-2 EVENT *****************/
+.event {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: white;
+    text-shadow: 0 3px 3px #32292F ;
+}
+
+.box2 {
+    position: relative;
+}
+
+.box2 img {
+    object-fit: cover;
+    height: 100%;
+}
+/****************END BOX-2 ******************/
+
+
+/*************** NEWS - BOX-4 ***************/
+.news {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    color: white;
+    text-shadow: 0 3px 3px #32292F;
+} 
+
+.box4 {
+    position: relative;
+}
+
+.box4 img {
+    object-fit: cover;
+    height: 100%;
+}
+/***************BOX 4 End *******************/
+
+
+
 
 .box1, .box2, .box3, .box4, .box5, .box6 {
     border: 2px solid #32292f;

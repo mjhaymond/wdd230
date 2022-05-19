@@ -71,6 +71,10 @@ nav ul li a {
     grid-template-columns: 1fr;
 }
 
+.box6 div:nth-child(3) {
+    display: block;
+  }
+
 #spot3 {
     display: contents;
     border: 2px solid #000000;
