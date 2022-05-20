@@ -28,8 +28,8 @@ p {
 /*** TABLET LAYOUT ***/
 
 .containers {
-    grid-template-columns: 500px 1fr;
-    grid-template-rows: repeat(4, 350px);
+    grid-template-rows: repeat(3, 350px);
+    grid-template-columns: 60% 37%;
    
 }
 
@@ -90,7 +90,7 @@ p {
 }
 
 .box3 p {
-    bottom: 40px;
+    bottom: 25px;
 }
 /************** END BOX-3 *****************/
 /******************************************/

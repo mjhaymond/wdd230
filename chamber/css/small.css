@@ -152,7 +152,7 @@ main {
 .containers {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 225px);
+    grid-template-rows: repeat(5, 225px);
     gap: 20px;
     padding: 20px;
 }
@@ -316,7 +316,7 @@ main {
 }
 .split1 p {
     color: #32292f;
-    padding: 10px;
+    padding: 5px 0px;
 }
 /**********SP2 BED & BREAKFAST**************/
 .bed {
@@ -331,7 +331,7 @@ main {
 }
 .split2 p {
     color: #32292f;
-    padding: 10px;
+    padding: 5px 0px;
 }
 
 /*************SP3 RESTURANT*****************/
@@ -347,12 +347,14 @@ main {
 }
 .split3 p {
     color: #32292f;
-    padding: 10px;
+    padding: 5px 0px;
 }
 
 /***************BOX 6 End *******************/
 /********************************************/
-
+.box5 {
+    display: none;
+}
 
 .box1, .box2, .box3, .box4, .box6 {
     border: 2px solid #32292f;
@@ -360,9 +362,10 @@ main {
     padding: 10px;
 }
 
-.box div:nth-child(3) {
-    display: none;
-}
+.box6 p {
+    line-height: 1.1;
+    font-size: .9rem;
+  }
 
 .box6 {
     display: grid; 
