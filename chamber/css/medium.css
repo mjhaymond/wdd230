@@ -12,6 +12,10 @@ h1 {
     font-family: Lobster Two, cursive;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 #cc {
     font-size: 16px;
     font-family: Lato, sans-serif;
@@ -21,7 +25,7 @@ h1 {
 
 .containers {
     grid-template-columns: 500px 1fr;
-    grid-template-rows: repeat(5, 125px);
+    grid-template-rows: repeat(4, 350px);
    
 }
 
@@ -54,6 +58,143 @@ h1 {
     grid-row: 4/5;
     grid-template-columns: 1fr 1fr;
 }
+/**************************************************/
+/************ Box-1 WELCOME-HERO IMAGE ************/
+.welcome {
+    bottom: 40px;
+    left: 10px;
+}
+/*************** END BOX-1 ******************/
+/********************************************/
+/************** BOX-2 EVENT *****************/
+.event {
+    top: 40px;
+    left: 10px;
+}
+
+.box2 p {
+   bottom: 40px;
+   left: 10px;
+   text-align: center;
+  
+}
+/*************** END BOX-2 ******************/
+/********************************************/
+/************** BOX-3 WEATHER ***************/
+.weather {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    padding: 5px 15px 5px 30px;
+    background-color: #355f5f80;
+}
+
+.box3 {
+    position: relative;
+}
+
+.box3 img {
+    position: absolute;
+    box-shadow: none;
+    border: none;
+    padding: 20px;
+    object-fit: cover;
+    width: 160px;
+    right: 40px;
+    top: 60px;
+}
+
+.box3 p {
+    position: absolute;
+    color: #32292f;
+    bottom: 50px;
+    left: 10px;
+    padding: 5px 15px 5px 30px;
+}
+/************** END BOX-3 *****************/
+/******************************************/
+/*************** BOX-4 NEWS ***************/
+.news {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    padding: 5px 15px 5px 30px;
+    background-color: #355f5f90;
+} 
+
+.box4 {
+    position: relative;
+}
+
+.box4 img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.box4 p {
+   position: absolute;
+   color: #ffffff;
+   bottom: 40px;
+   left: 10px;
+   right: 10px;
+   padding: 5px  10px  10px 10px;
+   background-color: #355f5f90;
+   text-align: center;
+}
+
+.box4 p a {
+    color: #f9dd83;
+    text-decoration: none;
+}
+/***************BOX 4 End *******************/
+/********************************************/
+/**************B)X-5 JOIN *******************/
+.join {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    padding: 5px 15px 5px 30px;
+    background-color: #355f5f90;
+}
+
+.box5 {
+    position: relative;
+}
+
+.box5 img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.joinbtn2  {
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    background-color: #f7c72b;
+    border: 1px solid #32292f;
+    padding: 7px 30px 7px 30px;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.joinbtn2 a {
+    color: #32292f;
+    text-decoration: none;
+}
+
+.box5 p {
+    position: absolute;
+    color: #ffffff;
+    bottom: 40px;
+    left: 10px;
+    right: 10px;
+    padding: 5px  10px  10px 10px;
+    background-color: #355f5f90;
+    text-align: center;
+}
+
+/**************** END BOX-5 *******************/
+
 
 /*** FOOTER LAYOUT ***/
 .foot1 {

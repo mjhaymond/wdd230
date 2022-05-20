@@ -38,19 +38,13 @@ header div {
 }
 
 header p {
-    display: grid;
-    grid-row: 2/3;
     grid-column: 1/5;
     text-align: center;
-    background-color: #b1d3d3;
+    background: linear-gradient(0.25turn, #b1d3d3, #faf2d6, #ffffff, #faf2d6, #b1d3d3);
     color: #32292F;
     border: 2px solid #32292f;
     padding: 5px 0px;
 }
-
-
-
-
 
 h1 {
     font-size: 24px;
@@ -61,8 +55,9 @@ h1 {
 }
 
 h2, h3 {
-color: #32292f;
-font-family: Lobster Two, cursive;
+    color: #ffffff;
+    font-family: Lobster Two, cursive;
+    text-shadow: 0 3px 3px #32292F;
 }
 
 #cc {
@@ -70,7 +65,7 @@ font-family: Lobster Two, cursive;
     font-family: Lato, sans-serif;
 }
 
-/*** HAMBURGER MENU ***/
+/************* HAMBURGER MENU ***************/
 nav {
     display: block;
     position: relative;
@@ -85,7 +80,8 @@ nav ul {
 
 #primaryNav {
     position: absolute;
-    right: 10px;
+    top: -10px;
+    right: 30px;
     border: 2px solid #000000;
 }
 
@@ -94,23 +90,17 @@ nav ul {
     font-weight: bold;
 }
 
-
 nav button {
-   
     background: transparent;
-    border: none;
+    border: 1px solid #ffffff;
     font-size: 1.5rem;
     color: #ffffff;
-}
-
-nav button:hover {
-    border: 1px solid #ffffff;
-    padding: 2px 5px;
+    padding: 6px;
 }
 
 nav ul li a {
     display: block;
-    padding: .8rem 2vw;
+    padding: .7rem 2vw;
     text-decoration: none;
     text-align: center;
     color: #32292f;
@@ -136,11 +126,12 @@ main {
     background-color: #e5f0f0;
     border-top: 5px solid #ffffff;
     border-bottom: 5px solid #ffffff;
-    /*padding: 1rem;*/
+  
 }
 
-/* Meeting Banner */
+/* Tuesday Banner */
 #banner {
+    display: none;
     text-align: center;
     background: linear-gradient(0.25turn, #b1d3d3, #faf2d6, #ffffff, #faf2d6, #b1d3d3);
     padding: 10px;
@@ -161,7 +152,7 @@ main {
 .containers {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 125px);
+    grid-template-rows: repeat(6, 225px);
     gap: 20px;
     padding: 20px;
 }
@@ -173,13 +164,15 @@ main {
     padding: 10px;
 }
 
+/**************************************************/
 /************ Box-1 WELCOME-HERO IMAGE ************/
 .welcome {
     position: absolute;
+    padding: 5px 30px;
     bottom: 30px;
-    left: 40px;
+    left: 0px;
     color: white;
-    text-shadow: 0 3px 3px #32292F;
+    background-color: #355f5f90;
 }
 
 .box1 {
@@ -211,15 +204,14 @@ main {
     background-color: #f9dd83;
 }
 /*************** END BOX-1 ******************/
-
-
+/********************************************/
 /************** BOX-2 EVENT *****************/
 .event {
     position: absolute;
     top: 20px;
-    left: 30px;
-    color: white;
-    text-shadow: 0 3px 3px #32292F ;
+    left: 0px;
+    padding: 5px 15px 5px 30px;
+    background-color: #355f5f90;
 }
 
 .box2 {
@@ -230,16 +222,58 @@ main {
     object-fit: cover;
     height: 100%;
 }
-/****************END BOX-2 ******************/
 
+.box2 p {
+   position: absolute;
+   color: white;
+   bottom: 20px;
+   left: 10px;
+   right: 10px;
+   padding: 5px  10px  10px 10px;
+   background-color: #355f5f90;
+}
+/*************** END BOX-2 ******************/
+/********************************************/
+/************** BOX-3 WEATHER ***************/
+.weather {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    padding: 5px 15px 5px 30px;
+    background-color: #355f5f90;
+}
 
-/*************** NEWS - BOX-4 ***************/
+.box3 {
+    position: relative;
+}
+
+.box3 img {
+    position: absolute;
+    box-shadow: none;
+    border: none;
+    padding: 20px;
+    object-fit: cover;
+    width: 160px;
+    right: 5px;
+    bottom: 20px;
+}
+
+.box3 p {
+    position: absolute;
+    color: #32292f;
+    bottom: 50px;
+    left: 10px;
+    padding: 5px 15px 5px 30px;
+}
+/************** END BOX-3 *****************/
+/******************************************/
+/*************** BOX-4 NEWS ***************/
 .news {
     position: absolute;
-    bottom: 30px;
-    left: 40px;
-    color: white;
-    text-shadow: 0 3px 3px #32292F;
+    top: 20px;
+    left: 0px;
+    padding: 5px 15px 5px 30px;
+    background-color: #355f5f90;
 } 
 
 .box4 {
@@ -250,19 +284,30 @@ main {
     object-fit: cover;
     height: 100%;
 }
+
+.box4 p {
+   position: absolute;
+   color: #ffffff;
+   bottom: 20px;
+   left: 10px;
+   right: 10px;
+   padding: 5px  10px  10px 10px;
+   background-color: #355f5f90;
+}
+
+.box4 p a {
+    color: #f9dd83;
+    text-decoration: none;
+}
 /***************BOX 4 End *******************/
+/********************************************/
 
 
 
-
-.box1, .box2, .box3, .box4, .box5, .box6 {
+.box1, .box2, .box3, .box4, .box6 {
     border: 2px solid #32292f;
     background-color: white;
     padding: 10px;
-}
-
-.box5 {
-    display: none;
 }
 
 .box div:nth-child(3) {
