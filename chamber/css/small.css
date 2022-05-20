@@ -183,7 +183,7 @@ main {
     height: 100%;
 }
 
-.joinbtn {
+.containers div .joinbtn {
     position: absolute;
     bottom: 30px;
     left: 40px;
