@@ -168,9 +168,8 @@ main {
 /************ Box-1 WELCOME-HERO IMAGE ************/
 .welcome {
     position: absolute;
+    top: 20px;
     padding: 5px 15px 5px 30px;
-    bottom: 30px;
-    left: 0px;
     color: white;
     background-color: #355f5f90;
 }
@@ -186,7 +185,7 @@ main {
 
 .joinbtn {
     position: absolute;
-    top: 30px;
+    bottom: 30px;
     left: 40px;
     background-color: #f7c72b;
     border: 1px solid #32292f;
