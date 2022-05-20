@@ -54,11 +54,13 @@ h1 {
     text-shadow: 0 3px 3px #32292F;
 }
 
-h2, h3 {
+h2 {
     color: #ffffff;
     font-family: Lobster Two, cursive;
     text-shadow: 0 3px 3px #32292F;
 }
+
+
 
 #cc {
     font-size: 18px;
