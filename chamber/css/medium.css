@@ -16,6 +16,10 @@ h2 {
     font-size: 30px;
 }
 
+p {
+    font-size: 18px;
+}
+
 #cc {
     font-size: 16px;
     font-family: Lato, sans-serif;
@@ -76,75 +80,29 @@ h2 {
    bottom: 40px;
    left: 10px;
    text-align: center;
-  
 }
 /*************** END BOX-2 ******************/
 /********************************************/
 /************** BOX-3 WEATHER ***************/
-.weather {
-    position: absolute;
-    top: 20px;
-    left: 0px;
-    padding: 5px 15px 5px 30px;
-    background-color: #355f5f80;
-}
-
-.box3 {
-    position: relative;
-}
-
 .box3 img {
-    position: absolute;
-    box-shadow: none;
-    border: none;
-    padding: 20px;
-    object-fit: cover;
-    width: 160px;
     right: 40px;
-    top: 60px;
+    top: 70px;
 }
 
 .box3 p {
-    position: absolute;
-    color: #32292f;
-    bottom: 50px;
-    left: 10px;
-    padding: 5px 15px 5px 30px;
+    bottom: 40px;
 }
 /************** END BOX-3 *****************/
 /******************************************/
 /*************** BOX-4 NEWS ***************/
 .news {
-    position: absolute;
     top: 40px;
     left: 10px;
-    padding: 5px 15px 5px 30px;
-    background-color: #355f5f90;
 } 
 
-.box4 {
-    position: relative;
-}
-
-.box4 img {
-    object-fit: cover;
-    height: 100%;
-}
-
 .box4 p {
-   position: absolute;
-   color: #ffffff;
-   bottom: 40px;
-   left: 10px;
-   right: 10px;
-   padding: 5px  10px  10px 10px;
-   background-color: #355f5f90;
+   bottom: 30px; 
    text-align: center;
-}
-
-.box4 p a {
-    color: #f9dd83;
-    text-decoration: none;
 }
 /***************BOX 4 End *******************/
 /********************************************/

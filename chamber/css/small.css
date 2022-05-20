@@ -168,7 +168,7 @@ main {
 /************ Box-1 WELCOME-HERO IMAGE ************/
 .welcome {
     position: absolute;
-    padding: 5px 30px;
+    padding: 5px 15px 5px 30px;
     bottom: 30px;
     left: 0px;
     color: white;
@@ -301,7 +301,57 @@ main {
 }
 /***************BOX 4 End *******************/
 /********************************************/
+/***********Box-6 SPOTLIGHTS ****************/
 
+/***************SP1 BOAT TOUR****************/
+.boat {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    padding: 5px 15px 5px 30px;
+    background-color: #355f5f90;
+}
+.split1 {
+    position: relative;
+}
+.split1 p {
+    color: #32292f;
+    padding: 10px;
+}
+/**********SP2 BED & BREAKFAST**************/
+.bed {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    padding: 5px 15px 5px 30px;
+    background-color: #355f5f90;
+}
+.split2 {
+    position: relative;
+}
+.split2 p {
+    color: #32292f;
+    padding: 10px;
+}
+
+/*************SP3 RESTURANT*****************/
+.cafe {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    padding: 5px 15px 5px 30px;
+    background-color: #355f5f90;
+}
+.split3 {
+    position: relative;
+}
+.split3 p {
+    color: #32292f;
+    padding: 10px;
+}
+
+/***************BOX 6 End *******************/
+/********************************************/
 
 
 .box1, .box2, .box3, .box4, .box6 {
@@ -316,6 +366,7 @@ main {
 
 .box6 {
     display: grid; 
+    grid-template-columns: 1fr;
     gap: 10px;
     height: 100%;
     grid-row: 5/7;  
