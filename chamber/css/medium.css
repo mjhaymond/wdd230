@@ -140,6 +140,10 @@ p {
     text-decoration: none;
 }
 
+.containers .joinbtn2:hover {
+    background-color: #f9dd83;
+}
+
 .box5 p {
     position: absolute;
     color: #ffffff;
