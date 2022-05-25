@@ -28,6 +28,7 @@ nav ul#primaryNav {
 
 nav ul li a {
     border: none;
+    padding: 10px;
 }
 
 /*** MAIN GRID LAYOUT ***/
@@ -86,7 +87,7 @@ nav ul li a {
     left: 0px;
   }
 
-  .containers {
+ /* .containers {
   grid-template-rows: repeat(2, 250px);
-    }
+    }*/
 }

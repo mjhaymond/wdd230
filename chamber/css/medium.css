@@ -28,8 +28,8 @@ p {
 /*** TABLET LAYOUT ***/
 
 .containers {
-    grid-template-rows: repeat(3, 350px);
-    grid-template-columns: 60% 37%;
+   /* grid-template-rows: repeat(3, 350px);
+    grid-template-columns: 60% 37%;*/
    
 }
 
@@ -72,7 +72,7 @@ p {
 /********************************************/
 /************** BOX-2 EVENT *****************/
 .event {
-    top: 40px;
+    top: 20px;
     left: 10px;
 }
 
@@ -96,7 +96,7 @@ p {
 /******************************************/
 /*************** BOX-4 NEWS ***************/
 .news {
-    top: 40px;
+    top: 20px;
     left: 10px;
 } 
 
@@ -109,7 +109,7 @@ p {
 /**************B)X-5 JOIN *******************/
 .join {
     position: absolute;
-    top: 40px;
+    top: 20px;
     left: 10px;
     padding: 5px 15px 5px 30px;
     background-color: #355f5f90;

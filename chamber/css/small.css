@@ -82,7 +82,7 @@ nav ul {
 
 #primaryNav {
     position: absolute;
-    top: -10px;
+    top: -20px;
     right: 30px;
     border: 2px solid #000000;
 }
@@ -102,7 +102,7 @@ nav button {
 
 nav ul li a {
     display: block;
-    padding: .7rem 2vw;
+    padding: 5px 7px;
     text-decoration: none;
     text-align: center;
     color: #32292f;
@@ -154,7 +154,7 @@ main {
 .containers {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 225px);
+    /*grid-template-rows: repeat(5, 225px);*/
     gap: 20px;
     padding: 20px;
 }
@@ -248,7 +248,7 @@ main {
 .box3 {
     position: relative;
 }
-
+/*
 .box3 img {
     position: absolute;
     box-shadow: none;
@@ -259,7 +259,7 @@ main {
     right: 5px;
     bottom: 20px;
 }
-
+*/
 .box3 p {
     position: absolute;
     color: #32292f;
