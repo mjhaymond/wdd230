@@ -84,10 +84,7 @@ p {
 /*************** END BOX-2 ******************/
 /********************************************/
 /************** BOX-3 WEATHER ***************/
-.box3 img {
-    right: 40px;
-    top: 70px;
-}
+
 
 .box3 p {
     bottom: 25px;
@@ -122,6 +119,7 @@ p {
 .box5 img {
     object-fit: cover;
     height: 100%;
+    
 }
 
 .containers div .joinbtn2  {
