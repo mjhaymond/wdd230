@@ -305,7 +305,7 @@ main {
 .boat {
     position: absolute;
     top: 20px;
-    left: 0px;
+    left: -1px;
     padding: 5px 15px 5px 30px;
     background-color: #355f5f90;
 }

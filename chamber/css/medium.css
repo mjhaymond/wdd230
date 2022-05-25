@@ -73,7 +73,7 @@ p {
 /************** BOX-2 EVENT *****************/
 .event {
     top: 20px;
-    left: 10px;
+   
 }
 
 .box2 p {
@@ -94,7 +94,7 @@ p {
 /*************** BOX-4 NEWS ***************/
 .news {
     top: 20px;
-    left: 10px;
+  
 } 
 
 .box4 p {
@@ -107,7 +107,7 @@ p {
 .join {
     position: absolute;
     top: 20px;
-    left: 10px;
+    left: 0px;
     padding: 5px 15px 5px 30px;
     background-color: #355f5f90;
 }
@@ -124,11 +124,10 @@ p {
 
 .containers div .joinbtn2  {
     position: absolute;
-    top: 35px;
-    right: 40px;
+    top: 30px;
+    right: 30px;
     background-color: #f7c72b;
     border: 1px solid #32292f;
-    padding: 7px 30px 7px 30px;
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
     border-radius: 5px 5px 5px 5px;
 }
