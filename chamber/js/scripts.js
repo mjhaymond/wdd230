@@ -24,7 +24,7 @@ let lastUpdated = document.lastModified;
 document.getElementById("updatedDate").textContent = lastUpdated;
 
 /* Banner on Mondays & Tuesdays */
-if(now.getDay() === 2) {
+if(now.getDay() === 2 || 1) {
   document.getElementById("banner").style.display = "block";
 }
 
