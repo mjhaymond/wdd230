@@ -24,6 +24,7 @@ nav ul#primaryNav {
     align-content: center;
     position: unset;
     border: 2px solid #32292f;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);
 }
 
 nav ul li a {

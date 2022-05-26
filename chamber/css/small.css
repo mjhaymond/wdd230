@@ -44,6 +44,7 @@ header p {
     color: #32292F;
     border: 2px solid #32292f;
     padding: 5px 0px;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);
 }
 
 h1 {
@@ -97,7 +98,8 @@ nav button {
     border: 1px solid #ffffff;
     font-size: 1.5rem;
     color: #ffffff;
-    padding: 6px;
+    padding: 2px 6px;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);
 }
 
 nav ul li a {
@@ -126,7 +128,7 @@ nav ul.open {display: block;}
 
 #hamburgerBtn:hover { 
     color: black;
-    background: linear-gradient(0.25turn, #b1d3d3, #faf2d6, #ffffff, #faf2d6, #b1d3d3);
+    background: linear-gradient(0.25turn, #faf2d6, #ffffff, #faf2d6);
 }
 
 main {
@@ -152,7 +154,7 @@ main {
 #close {
     padding: 3px;
     background-color: #f7c72b;
-    border-radius: 5px 5px 5px 5px;
+    
 }
 
 /* Mobile Layout (Grid) */
