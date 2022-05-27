@@ -54,12 +54,12 @@ p {
 .box5 {
     display: block;
     grid-column: 1/3;
-    grid-row: 3/4;
+    grid-row: 4/5;
 }
 
 .box6 {
     grid-column: 1/3;
-    grid-row: 4/5;
+    grid-row: 3/4;
     grid-template-columns: 1fr 1fr;
 }
 /**************************************************/
