@@ -27,3 +27,11 @@ img {
     transition: filter 0.5s;
     margin-top: 50px;
 }
+
+.pic6 {
+    margin-bottom: 200px;
+}
+
+img[data-src] {
+    filter: blur(0.4em);
+}
