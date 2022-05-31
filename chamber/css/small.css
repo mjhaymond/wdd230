@@ -161,7 +161,6 @@ main {
 .containers {
     display: grid;
     grid-template-columns: 1fr;
-    /*grid-template-rows: repeat(5, 225px);*/
     gap: 20px;
     padding: 20px;
 }
@@ -425,10 +424,135 @@ footer #lastline {
     text-align: center;
     font-size:  16px;
     padding: 10px;
-   
     background-color: #355f5f;
     color: #ffffff;
     padding: 10px;
 	text-shadow: 0 3px 3px #32292F;
     border-top: 1px solid #e5f0f0;
 }
+
+
+/******************************************************/
+/*******************DISCOVER PAGE**********************/
+.discover {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.discover div {
+    position: relative;
+    border: 1px solid #32292f;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);
+    padding: 10px;
+}
+
+.discover-title {
+    padding: 30px 30px 0px 30px;
+    text-align: center;
+}
+
+.stats {
+    padding: 10px;
+    color: white;
+    background-color: #355f5f90;
+}
+
+.discover-title p {
+    padding: 20px 20px 10px 20px;
+}
+
+.discover p {
+    padding: 10px;
+}
+
+/*************DISCOVER BOX1***************/
+.discover1 h2 {
+    padding: 5px 0px 10px 30px;
+    margin: 10px 90px 20px -10px;
+    background-color: #355f5f90;
+    border: transparent;
+    background-color: none;
+}
+
+/*****************************************/
+/*************DISCOVER BOX2***************/
+.discover2 h2 {
+    padding: 5px 0px 10px 30px;
+    margin: 10px 130px 20px -10px;
+    background-color: #355f5f90;
+    border: transparent;
+    background-color: none;  
+}
+
+/*****************************************/
+/*************DISCOVER BOX3***************/
+.discover3 h2 {
+    padding: 5px 0px 10px 30px;
+    margin: 10px 30px 20px -10px;
+    background-color: #355f5f90;
+    border: transparent;
+    background-color: none;  
+}
+
+/*****************************************/
+/*************DISCOVER BOX4***************/
+.discover4 h2 {
+    padding: 5px 0px 10px 30px;
+    margin: 10px 50px 20px -10px;
+    background-color: #355f5f90;
+    border: transparent;
+    background-color: none;  
+}
+
+/*****************************************/
+/*************DISCOVER BOX5***************/
+.discover5 h2 {
+    padding: 5px 0px 10px 30px;
+    margin: 10px 70px 20px -10px;
+    background-color: #355f5f90;
+    border: transparent;
+    background-color: none;  
+}
+
+/*****************************************/
+/*************DISCOVER BOX6***************/
+.discover6 h2 {
+    padding: 5px 0px 10px 30px;
+    margin: 10px 90px 20px -10px;
+    background-color: #355f5f90;
+    border: transparent;
+    background-color: none;  
+}
+
+/*****************************************/
+/*************DISCOVER BOX7***************/
+.discover7 h2 {
+    padding: 5px 0px 10px 30px;
+    margin: 10px 90px 20px -10px;
+    background-color: #355f5f90;
+    border: transparent;
+    background-color: none;  
+}
+
+/*****************************************/
+/*************DISCOVER BOX3***************/
+.discover7 {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.discover7 div {
+    gap: 20px;
+}
+
+.discover7 p {
+    padding: 10px;
+}
+
+img[data-src] {
+    filter: blur(0.4em);
+}
+

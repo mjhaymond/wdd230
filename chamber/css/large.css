@@ -92,3 +92,12 @@ nav ul li a {
   grid-template-rows: repeat(2, 250px);
     }*/
 }
+
+
+/******************************************************/
+/********************DISCOVER PAGE*********************/
+.pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
