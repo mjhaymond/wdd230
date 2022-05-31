@@ -34,6 +34,7 @@ if('IntersectionObserver' in window) {
     imagesToLoad.forEach((img) => {
         observer.observe(img)
     });
+    
 // if it's not supported just load the images
 } else {
     imagesToLoad.forEach((img) => {

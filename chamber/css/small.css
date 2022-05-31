@@ -447,7 +447,7 @@ footer #lastline {
     background-color: #ffffff;
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
     padding: 10px;
-    margin-bottom: 10px;
+    
 }
 
 .discover-title {
@@ -474,8 +474,8 @@ footer #lastline {
 
 /*************DISCOVER BOX1***************/
 .discover1 h2 {
-    padding: 5px 0px 10px 30px;
-    margin: 10px 90px 20px -22px;
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
     background-color: #355f5f90;
     border: transparent;
     background-color: none;
@@ -484,8 +484,8 @@ footer #lastline {
 /*****************************************/
 /*************DISCOVER BOX2***************/
 .discover2 h2 {
-    padding: 5px 0px 10px 30px;
-    margin: 10px 130px 20px -22px;
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
     background-color: #355f5f90;
     border: transparent;
     background-color: none;  
@@ -494,8 +494,8 @@ footer #lastline {
 /*****************************************/
 /*************DISCOVER BOX3***************/
 .discover3 h2 {
-    padding: 5px 0px 10px 30px;
-    margin: 10px 30px 20px -22px;
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
     background-color: #355f5f90;
     border: transparent;
     background-color: none;  
@@ -504,7 +504,7 @@ footer #lastline {
 /*****************************************/
 /*************DISCOVER BOX4***************/
 .discover4 h2 {
-    padding: 5px 0px 10px 30px;
+    padding: 5px 20px 10px 30px;
     margin: 10px 50px 20px -22px;
     background-color: #355f5f90;
     border: transparent;
@@ -514,8 +514,8 @@ footer #lastline {
 /*****************************************/
 /*************DISCOVER BOX5***************/
 .discover5 h2 {
-    padding: 5px 0px 10px 30px;
-    margin: 10px 70px 20px -22px;
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
     background-color: #355f5f90;
     border: transparent;
     background-color: none;  
@@ -524,8 +524,8 @@ footer #lastline {
 /*****************************************/
 /*************DISCOVER BOX6***************/
 .discover6 h2 {
-    padding: 5px 0px 10px 30px;
-    margin: 10px 90px 20px -22px;
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
     background-color: #355f5f90;
     border: transparent;
     background-color: none;  
@@ -534,18 +534,29 @@ footer #lastline {
 /*****************************************/
 /*************DISCOVER BOX7***************/
 .discover7 h2 {
-    padding: 5px 0px 10px 30px;
+    padding: 5px 15px 10px 30px;
     margin: 10px 90px 20px -22px;
     background-color: #355f5f90;
     border: transparent;
     background-color: none;  
 }
 
+.discover7 .border {
+    margin-bottom: 10px;
+}
 
+.discover7 .bottom {
+    margin: 0px;
+}
 /*****************************************/
-/*****DISCOVER PROGRESSIVE IMAGES*********/
-img .pics {
+/*******DISCOVER LAZY LOAD IMAGES*********/
+.discover7 img {
     filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.pics {
+    border: 1px solid black;
     transition: filter 0.5s;
 }
 

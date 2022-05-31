@@ -1,4 +1,5 @@
-/* Get Current Date for Header */
+/**************************************************************************/
+/*********************** Get Current Date for Header **********************/
 const currentDateSpan = document.querySelector("#currentDate");
 
 const now = new Date();
@@ -14,7 +15,9 @@ function toggleMenu() {
   const x = document.getElementById('hamburgerBtn')
   x.onclick = toggleMenu;
 
-/* Date for the footer*/
+
+/**************************************************************************/
+/********************* Date for the footer********************************/
 let newDate = new Date();
 
 document.getElementById("currentYear").textContent = newDate.getFullYear();
@@ -37,8 +40,9 @@ close.addEventListener("click", () => {
 
 /**************************************************************************/
 /************************DISCOVER PAGE - LAZY LOAD*************************/
+
 // get all imgs with data-scr attribute
-let imagesToLoad = document.querySelectorAll('img[data-src]')
+let imagesToLoad = document.querySelectorAll('img[data-src]') 
 
 // This is a function that will replace the src with the data-src
 const loadImages = (image) => {
@@ -73,9 +77,38 @@ if('IntersectionObserver' in window) {
     imagesToLoad.forEach((img) => {
         observer.observe(img)
     });
+
 // if it's not supported just load the images
 } else {
     imagesToLoad.forEach((img) => {
         loadImages(img);
     });
 }
+
+
+/**************************************************************************/
+/**********************Local Storage Page View Count***********************/
+
+//initialize display elements
+const todayDisplay = document.querySelector(".today");
+const visitDisplay = document.querySelector(".visits");
+
+//get the stored value in localStorage
+let numVisits = Number(window.localStorage.getItem("visits-ls"));
+
+//determine if this is the first visit or display the number of visits.
+if (numVisits !==0) {
+  visitsDisplay.textContent = numVisits;
+} 
+
+else {
+  visitsDisplay.textContent = 'This is your first visit!';
+}
+
+//increment the number of visits.
+numVisits++;
+//store the new number of visits value
+localStorage.setItem("visits-ls", numVisits);
+
+//show todays date
+todayDisplay.textContent = Date.now();
