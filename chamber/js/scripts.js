@@ -39,76 +39,26 @@ close.addEventListener("click", () => {
 
 
 /**************************************************************************/
-/************************DISCOVER PAGE - LAZY LOAD*************************/
-
-// get all imgs with data-scr attribute
-let imagesToLoad = document.querySelectorAll('img[data-src]') 
-
-// This is a function that will replace the src with the data-src
-const loadImages = (image) => {
-    image.setAttribute('src', image.getAttribute('data-src'));
-    image.onload = () => {
-        image.removeAttribute('data-src')
-    };
-};
-
-// options that will determine when the image is visible
-const imgOptions = {
-    threshold: 1,
-    rootMargin: "0px 0px -200px 0px"
-};
-
-// callback function that happens when the image is observed
-const intersectionCallback = (items, observer) => {
-    items.forEach((item) => {
-        if(item.isIntersecting) {
-            loadImages(item.target);
-            observer.unobserve(item.target);
-        }
-    });
-}
-
-// checking if intersectionObserver is supported
-if('IntersectionObserver' in window) {
-    // create the observer
-    const observer = new IntersectionObserver(intersectionCallback, imgOptions);
-    
-    // for each image, observe the image with the observer
-    imagesToLoad.forEach((img) => {
-        observer.observe(img)
-    });
-
-// if it's not supported just load the images
-} else {
-    imagesToLoad.forEach((img) => {
-        loadImages(img);
-    });
-}
-
-
-/**************************************************************************/
 /**********************Local Storage Page View Count***********************/
 
-//initialize display elements
+// initialize display elements
 const todayDisplay = document.querySelector(".today");
-const visitDisplay = document.querySelector(".visits");
+const visitsDisplay = document.querySelector(".visits");
 
-//get the stored value in localStorage
+// get the stored value in localStorage
 let numVisits = Number(window.localStorage.getItem("visits-ls"));
 
-//determine if this is the first visit or display the number of visits.
-if (numVisits !==0) {
-  visitsDisplay.textContent = numVisits;
-} 
-
-else {
-  visitsDisplay.textContent = 'This is your first visit!';
+// determine if this is the first visit or display the number of visits.
+if (numVisits !== 0) {
+	visitsDisplay.textContent = numVisits;
+} else {
+	visitsDisplay.textContent = `This is your first visit!`;
 }
 
-//increment the number of visits.
+// increment the number of visits.
 numVisits++;
-//store the new number of visits value
+// store the new number of visits value
 localStorage.setItem("visits-ls", numVisits);
 
-//show todays date
+// show todays date.
 todayDisplay.textContent = Date.now();
