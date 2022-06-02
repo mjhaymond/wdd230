@@ -20,11 +20,13 @@ numVisits++;
 // store the new number of visits value (writing/saving the new number to the local storage)
 localStorage.setItem("visits-ls", numVisits);
 
-// show todays date.
-//todayDisplay.textContent = Date.now();
-
-if (numMills !== 0) {
+// show number of days //
+// if the number of milliseconds does not = 0
+if (numMills !== 0) {  
+	// then do this math equation and round to a whole number which will now = (NumDays)
     numDays = Math.round((Date.now() - numMills) / 86400000); 
+	// now go to the todayDisplay and retrieve todays date and diplay a "text" number we 
+	// will call numDays 
 	todayDisplay.textContent = numDays;
 
 } else {
