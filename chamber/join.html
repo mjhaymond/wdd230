@@ -6,11 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Merry Haymond's Lazy Load Image Assignment">
+    <meta name="description" content="Merry Haymond - Join the Chamber form.">
     <title>Discover Saratoga Springs</title>
-    <meta name="description" content="Mount Saratoga Discover-demographics. 
-    This website helps business owners learn about the population and demogrraogics 
-    of the Mount Saratoga area." />
+    <meta name="description" content="Application to join the Mount Saratoga Chamber
+    of Commerce community." />
 
     <link rel="shortcut icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -30,7 +29,7 @@
             <img src="images/MountSaratoga-1.webp" alt="Mount Saratoga Logo">
         </picture>
 
-        <h1>Discover<span id="cc"><br>Mount Saratoga</span></h1>
+        <h1>Join Us<span id="cc"><br>Mount Saratoga</span></h1>
 
         <div class="social">
             <a href="https://facebook.com" target="blank"><img src="images/facebookLogo.png" alt="Facebook Logo"
@@ -55,6 +54,95 @@
     </header>
 
     <main>
+        <h1>Mount Saratoga Chamber Application</h1>
+        <form method="get" action="thankyou.html">
+            <section>
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label class="top">First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="youremail@gmail.com"
+                            required></label>
+                    <label class="top">Cell Phone Number* <input type="tel" name="phone" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Business Type and Position</legend>
+                    <label class="top">Business Name* <input type="text" name="bname" required></label>
+                    <!---A business position title field of type text that is not required but only 
+                        accepts alpha characters, hyphens, and spaces with a minimum of seven 
+                        characters using a regular expression (Links to an external site.) pattern.-->
+                    <label class="top">Business Position Title <input type="text" pattern="[A-Za-z]{7+}"
+                            name="title"></label>
+                    <!--A business description textarea where the user can briefly describe their business.-->
+                    <label class="top" for="content" name="textarea">Business Description</label>
+                    <textarea name="textarea" id="content" cols="50%" rows="10"></textarea>
+                    <!--A hidden field that contains the current date and time that the form was loaded by the user.-->
+                    <label class="top">Hidden date and time <input type="hidden" name=""></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Membership Levels</legend>
+                    <label class="sbs"><input type="radio" name="NP Membership"> NP Member (Non-Profit)</label>
+                    <label class="sbs"><input type="radio" name="Bronze Membership"> Bronze Member</label>
+                    <label class="sbs"><input type="radio" name="Silver Membership"> Silver Member</label>
+                    <label class="sbs"><input type="radio" name="Gold Membership"> Gold Member</label>
+                </fieldset>
+
+                <input type="submit" value="Join Chamber" name="button" class="submitBtn">
+            </section>
+        </form>
+        <div>
+            <h2>Mount Saratoga Chamber of Commerce</h2>
+            <div>
+                <h2>NP Member</h2>
+                <ul>
+                    <li>NP Membership is for non profit organizations and there is no fee.</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Bronze Membership</h2>
+                <h3>$480 (Annual Investment)</h3>
+                <ul>
+                    <li>Invites to all networking and educational events – mixers, B2B expo, breakfasts, etc.</li>
+                    <li>Free postings on the Chamber Job Zone.</li>
+                    <li>Listed in Chamber’s online directory & ability to build your own microsite.</li>
+                    <li>Join leads and business development groups as well as other Chamber councils and committees.
+                    </li>
+                    <li>Weekly updates where we share information about new chamber programs, initiatives,
+                        festivals, networking events and advocacy efforts.</li>
+                    <li>Access to free and confidential business counseling.</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Silver Membership</h2>
+                <h3>$980 (Annual Investment)</h3>
+                <li>To include all benefits of Business Builder as well as…</li>
+                <li>WE build your microsite on saratoga.org for you.</li>
+                <li>WE setup microsite keywords to improve SEO for your organization.</li>
+                <li>You get a second location or a second business membership.</li>
+                <li>Mini Campaign: WE will create a social media campaign for your business or organization.
+                    Pictures & copy will promote you, your product or service to the community via 4 unique social
+                    media posts over 2 weeks.</li>
+                <li>Premier Ribbon Cutting: Photos, video, social media & email promotion to 5,000 member contacts.
+                </li>
+            </div>
+            <div>
+                <h2>Gold Membership</h2>
+                <h3>$2,500 (Annual Investment)</h3>
+                <li>To include all benefits of Business Builder as well as…</li>
+                <li>WE build your microsite on saratoga.org for you.</li>
+                <li>WE setup microsite keywords to improve SEO for your organization.</li>
+                <li>You get a second location or a second business membership.</li>
+                <li>Mini Campaign: WE will create a social media campaign for your business or organization.
+                    Pictures & copy will promote you, your product or service to the community via 4 unique social
+                    media posts over 2 weeks.</li>
+                <li>Premier Ribbon Cutting: Photos, video, social media & email promotion to 5,000 member contacts.
+                </li>
+                <li>And so much more...</li>
+                <li>For more information about our Gold Membership please contact ms-chamber@gamil.com</li>
+            </div>
+
 
 
     </main>

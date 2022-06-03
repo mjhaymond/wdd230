@@ -345,7 +345,7 @@ main {
     padding: 5px 0px;
 }
 
-/*************SP3 RESTURANT*****************/
+/*************SP3 RESTAURANT*****************/
 .cafe {
     position: absolute;
     top: 20px;
@@ -432,6 +432,7 @@ footer #lastline {
 }
 
 
+/******************************************************/
 /******************************************************/
 /*******************DISCOVER PAGE**********************/
 .discover {
@@ -574,3 +575,64 @@ img[data-src] {
     text-align: center;
 }
 
+
+
+/******************************************************/
+/******************************************************/
+/***********************JOIN PAGE**********************/
+
+/******form styling*******/
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #32292f;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #d52d2d;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #32292f;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #32292f;
+    border-radius:  4px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #32292f;
+}
+
+form input.submitBtn {
+    border: #000000;
+    background-color: #355f5f;
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
