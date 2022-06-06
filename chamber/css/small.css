@@ -49,7 +49,7 @@ header p {
 
 h1 {
     font-size: 24px;
-    line-height: .6;
+    line-height: 1;
     padding: 5px;
     font-family: Lobster Two, cursive;
     text-shadow: 0 3px 3px #32292F;
@@ -478,7 +478,6 @@ footer #lastline {
     padding: 5px 20px 10px 30px;
     margin: 10px 50px 20px -22px;
     background-color: #355f5f90;
-    border: transparent;
     background-color: none;
 }
 
@@ -583,16 +582,19 @@ img[data-src] {
 
 /******form styling*******/
 form fieldset {
-    margin: 2rem 0;
+    margin: 20px;
     border: 1px solid #32292f;
-    border-radius: 10px;
-    padding: .5rem 2%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 10px #363636;
 }
 
 form legend {
-    color: #d52d2d;
+    color: #32292f;
     margin: 0 1rem;
     padding: 0 .5rem;
+    font-family: Lobster Two, cursive;
+    font-size: 24px;
 }
 
 form label.top, form div {
@@ -611,6 +613,7 @@ form label.top input, form label.top select {
     color: black;
     width: 100%;
     max-width: 20rem;
+    background-color: #f2f2f2;
 }
 
 form label.sbs {
@@ -620,19 +623,118 @@ form label.sbs {
 }
 
 form input.submitBtn {
-    border: #000000;
+    border: 1px solid #32292f;
     background-color: #355f5f;
     color: #ffffff;
     border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    width: 96%;
+    padding: 10px 40px;
+    margin: 20px;
+    width: 88%;
     max-width: 20rem;
+    font-size: 100%;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);
 }
 
 form label.top input:required {
-    border-left: red solid 6px;
+    border-left: rgb(201, 93, 93) solid 6px;
 }
 
 form label.top input:required:valid {
-    border-left: green solid 6px;
+    border-left: rgb(82, 157, 82) solid 6px;
+}
+
+form section {
+    padding: 20px;
+}
+
+form textarea {
+    width: 100%;
+    height: 10rem;
+    max-width: 20rem;
+    background-color: #f2f2f2;
+    border: 1px solid #32292F;
+}
+
+#jointitle {
+    padding: 10px;
+    color: white;
+    margin: 20px 20px 0px 20px;
+    background-color: #355f5f90;
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);
+    text-align: center;
+}
+
+#memberlevels {
+    display: grid;
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #32292f;
+    box-shadow: 3px 3px 10px #363636;
+}
+
+.memberinfo {
+    border: 1px solid #32292f;
+    margin: 0px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);
+}
+ .memberinfo h2 {
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -37px;
+    background-color: #355f5f90;
+    background-color: none;
+ }
+
+ .memberinfo li {
+     padding: 3px 10px 3px 0px;
+ }
+
+ .infobox {
+    padding: 10px 10px 10px 25px;
+    border: 1px solid #32292f;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);
+ }
+
+ .infobox h3 {
+     padding: 0px 0px 10px 0px;
+     font-size: 16px;
+     color: #32292f;
+ }
+
+#leveltitle h2 {
+     text-align: center;
+     padding: 10px;
+     margin: 10px 10px 20px 10px;
+     background-color: #355f5f90;
+ }
+
+
+/******************************************************/
+/******************************************************/
+/******************THANK YOU PAGE**********************/
+.thankyou {
+    border: 1px solid #32292f;
+    padding: 10px;
+    margin: 75px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);
+}
+
+.thankyou2 {
+    border: 1px solid #32292f;
+    padding: 10px;  
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);
+}
+
+.thankyou2 h1 {
+    padding: 20px;
+}
+
+.thankyou2 p {
+    padding: 0px 10px 20px 010px;
 }
