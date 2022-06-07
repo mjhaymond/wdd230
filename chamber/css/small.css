@@ -52,7 +52,7 @@ h1 {
     line-height: 1;
     padding: 5px;
     font-family: Lobster Two, cursive;
-    text-shadow: 0 3px 3px #32292F;
+    text-shadow: 0 2px 3px #32292F;
 }
 
 h2 {
@@ -458,10 +458,6 @@ footer #lastline {
 
 .stats {
     padding: 10px;
-    color: white;
-    background-color: #355f5f90;
-    border: 1px solid black;
-    box-shadow: 3px 3px 10px rgb(54, 54, 54);
 }
 
 .discover-title p {
@@ -582,7 +578,7 @@ img[data-src] {
 
 /******form styling*******/
 form fieldset {
-    margin: 20px;
+    margin: 10px;
     border: 1px solid #32292f;
     padding: 20px;
     background-color: #ffffff;
@@ -595,6 +591,8 @@ form legend {
     padding: 0 .5rem;
     font-family: Lobster Two, cursive;
     font-size: 24px;
+    background-color: #faf2d6;
+    border: 1px solid;
 }
 
 form label.top, form div {
@@ -612,7 +610,7 @@ form label.top input, form label.top select {
     padding: .75rem;
     color: black;
     width: 100%;
-    max-width: 20rem;
+    max-width: 45rem;
     background-color: #f2f2f2;
 }
 
@@ -628,11 +626,12 @@ form input.submitBtn {
     color: #ffffff;
     border-radius: 1rem;
     padding: 10px 40px;
-    margin: 20px;
-    width: 88%;
-    max-width: 20rem;
+    margin: 10px;
+    width: 96%;
+    max-width: 45rem;
     font-size: 100%;
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
+    cursor: pointer;
 }
 
 form label.top input:required {
@@ -644,24 +643,22 @@ form label.top input:required:valid {
 }
 
 form section {
-    padding: 20px;
+    padding: 10px;
 }
 
 form textarea {
     width: 100%;
+    max-width: 45rem;
     height: 10rem;
-    max-width: 20rem;
+    max-width: 45rem;
     background-color: #f2f2f2;
     border: 1px solid #32292F;
 }
 
 #jointitle {
     padding: 10px;
-    color: white;
-    margin: 20px 20px 0px 20px;
-    background-color: #355f5f90;
-    border: 1px solid black;
-    box-shadow: 3px 3px 10px rgb(54, 54, 54);
+    
+    margin: 20px 20px 0px 20px;    
     text-align: center;
 }
 
@@ -728,6 +725,7 @@ form textarea {
     padding: 10px;  
     background-color: #ffffff;
     text-align: center;
+    background: linear-gradient(0.25turn, #b1d3d3, #faf2d6, #ffffff, #faf2d6, #b1d3d3);
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
 }
 

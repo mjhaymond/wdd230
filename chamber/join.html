@@ -75,13 +75,14 @@
                         <!---A business position title field of type text that is not required but only 
                         accepts alpha characters, hyphens, and spaces with a minimum of seven 
                         characters using a regular expression (Links to an external site.) pattern.-->
-                        <label class="top">Business Position Title <input type="text" pattern="[A-Za-z]{7+}"
+                        <label class="top">Business Position Title <input type="text" pattern="[a-zA-Z\s\-]{7,}"
                                 name="title"></label>
                         <!--A business description textarea where the user can briefly describe their business.-->
                         <label class="top" for="content" name="textarea">Business Description</label>
                         <textarea name="textarea" id="content" cols="" rows=""></textarea>
                         <!--A hidden field that contains the current date and time that the form was loaded by the user.-->
-                        <label class="top">Hidden date and time <input type="hidden" name=""></label>
+                        <input type="hidden" id="date" name="date" value="CurrentTime">
+                        <input type="hidden" id="time" name="time" value="CurrentDate">
                     </fieldset>
 
                     <fieldset>
@@ -148,7 +149,7 @@
                             <h2>Gold Membership</h2>
                             <h3>$2,500 (Annual Investment)</h3>
                             <li>Includes all the benifits of our Bronze and Silver members and more...</li>
-                            <li>For more information about our Gold Membership please contact ms-chamber@gamil.com</li>
+                            <li>For more information about our Gold Membership please contact mschamber@gmail.com</li>
                         </div>
                     </div>
                 </div>
@@ -190,6 +191,7 @@
     </footer>
 
     <script src="js/headfootdate.js"></script>
+    <script src="js/joinhidden.js"></script>
 </body>
 
 </html>
