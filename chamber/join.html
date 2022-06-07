@@ -6,10 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Merry Haymond - Join the Chamber form.">
-    <title>Join Mount Saratoga Chamber</title>
     <meta name="description" content="Application to join the Mount Saratoga Chamber
-    of Commerce community." />
+    of Commerce community.">
+    <title>Join Mount Saratoga Chamber</title>
 
     <link rel="shortcut icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -59,7 +58,7 @@
         </div>
         <div id="joinapp">
             <form method="get" action="thankyou.html">
-                <section>
+                <div>
                     <fieldset>
                         <legend>Applicant Information</legend>
                         <label class="top">First Name* <input type="text" name="fname" required></label>
@@ -78,8 +77,8 @@
                         <label class="top">Business Position Title <input type="text" pattern="[a-zA-Z\s\-]{7,}"
                                 name="title"></label>
                         <!--A business description textarea where the user can briefly describe their business.-->
-                        <label class="top" for="content" name="textarea">Business Description</label>
-                        <textarea name="textarea" id="content" cols="" rows=""></textarea>
+                        <label class="top" for="content">Business Description</label>
+                        <textarea name="textarea" id="content"></textarea>
                         <!--A hidden field that contains the current date and time that the form was loaded by the user.-->
                         <input type="hidden" id="date" name="date" value="CurrentTime">
                         <input type="hidden" id="time" name="time" value="CurrentDate">
@@ -94,7 +93,7 @@
                     </fieldset>
 
                     <input type="submit" value="Join Chamber" name="button" class="submitBtn">
-                </section>
+                </div>
             </form>
 
             <section id="memberlevels">
@@ -117,7 +116,6 @@
                             <h2>Bronze Membership</h2>
                             <h3>$480 (Annual Investment)</h3>
                             <ul>
-                                </li>
                                 <li>Free postings on the Chamber Job Zone.</li>
                                 <li>Join leads and business development groups as well as other Chamber councils and
                                     committees.
@@ -133,23 +131,31 @@
                         <div class="infobox">
                             <h2>Silver Membership</h2>
                             <h3>$980 (Annual Investment)</h3>
-                            <li>To include all benefits of Business Builder as well as…</li>
-                            <li>You get a second location or a second business membership.</li>
-                            <li>Mini Campaign: WE will create a social media campaign for your business or organization.
-                                Pictures & copy will promote you, your product or service to the community via 4 unique
-                                social
-                                media posts over 2 weeks.</li>
-                            <li>Premier Ribbon Cutting: Photos, video, social media & email promotion to 5,000 member
-                                contacts.
-                            </li>
+                            <ul>
+                                <li>To include all benefits of Business Builder as well as…</li>
+                                <li>You get a second location or a second business membership.</li>
+                                <li>Mini Campaign: WE will create a social media campaign for your business or
+                                    organization.
+                                    Pictures & copy will promote you, your product or service to the community via 4
+                                    unique
+                                    social
+                                    media posts over 2 weeks.</li>
+                                <li>Premier Ribbon Cutting: Photos, video, social media & email promotion to 5,000
+                                    member
+                                    contacts.
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <div class="memberinfo">
                         <div class="infobox">
                             <h2>Gold Membership</h2>
                             <h3>$2,500 (Annual Investment)</h3>
-                            <li>Includes all the benifits of our Bronze and Silver members and more...</li>
-                            <li>For more information about our Gold Membership please contact mschamber@gmail.com</li>
+                            <ul>
+                                <li>Includes all the benifits of our Bronze and Silver members and more...</li>
+                                <li>For more information about our Gold Membership please contact mschamber@gmail.com
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
