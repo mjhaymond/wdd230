@@ -9,7 +9,7 @@ header {
 h1 {
     font-size:  40px;
     line-height: 1;
-    font-family: Lobster Two, cursive;
+  
 }
 
 h2 {
@@ -240,15 +240,6 @@ form {
 #memberlevels {
     grid-column: 2/3;
 }
-/*
-form input.submitBtn {
-    padding: 10px 40px;
-    margin: 40px;
-    width: 96%;
-    max-width: 20rem; 
-}
 
-
-*/
 
 }
