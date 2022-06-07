@@ -593,6 +593,7 @@ form label.top, form div {
     padding-top: 1rem;
     color: #32292f;
     font-size: .8rem;
+    margin: 20px;
 }
 
 form label.top input, form label.top select {
