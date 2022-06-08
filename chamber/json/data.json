@@ -1,0 +1,66 @@
+[
+    {
+        "company name": "Ice Cream",
+        "address": "123 Sugercone Ln, Mount Saratoga UT 84045",
+        "phone": "(801)123-4567",
+        "website": "https://www.icecream.com",
+        "membership": "Silver"
+    },
+    {
+        "company name": "Boat Tours",
+        "address": "456 Silver Lake Rd, Mount Saratoga UT 84045",
+        "phone": "(801)233-6567",
+        "website": "https://www.boat-tours.com",
+        "membership": "Bronze"
+    },
+    {
+        "company name": "The Bike Life",
+        "address": "789 Happy Trails Rd, Mount Saratoga UT 84045",
+        "phone": "(801)753-4717",
+        "website": "https://www.thebikelife.com",
+        "membership": "Silver"
+    },
+    {
+        "company name": "The Cat Cafe",
+        "address": "102 Lazy Lane, Mount Saratoga UT 84045",
+        "phone": "(801)623-5667",
+        "website": "https://www.thecatcafe.com",
+        "membership": "Gold"
+    },
+    {
+        "company name": "Bake My Day",
+        "address": "203 High Rise Rd, Mount Saratoga UT 84045",
+        "phone": "(801)483-6767",
+        "website": "https://www.bakemyday.com",
+        "membership": "Bronze"
+    },
+    {
+        "company name": "Puffin Books",
+        "address": "304 Turner Ave, Mount Saratoga UT 84045",
+        "phone": "(801)423-4517",
+        "website": "https://www.puffinbooks.com",
+        "membership": "Bronze"
+    },
+    {
+        "company name": "Dressing Up",
+        "address": "405 Looking Good Ln, Mount Saratoga UT 84045",
+        "phone": "(801)134-4520",
+        "website": "https://www.dressingup.com",
+        "membership": "Gold"
+    },
+    {
+        "company name": "Comfort Hotel",
+        "address": "506 Sleep Late Ln, Mount Saratoga UT 84045",
+        "phone": "(801)673-4565",
+        "website": "https://www.comforthotel.com",
+        "membership": "Silver"
+    },
+    {
+        "company name": "Theater Cats",
+        "address": "607 Sugercone Ln, Mount Saratoga UT 84045",
+        "phone": "(801)745-4997",
+        "website": "https://www.theatercats.com",
+        "membership": "Silver"
+    }
+
+]
