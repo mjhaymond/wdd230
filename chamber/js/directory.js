@@ -7,10 +7,10 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
 
-    const company = jsonObject['company'];
+    const directory = jsonObject['directory'];
     const cards = document.querySelector('.cards');
 
-    prophets.forEach(prophet =>{
+    directory.forEach(company =>{
             // Create elements to add to the document
            
             let card = document.createElement('section');
@@ -20,6 +20,7 @@ fetch(requestURL)
             let  phone = document.createElement('p');
             let  website = document.createElement('p');
             let  mlevel = document.createElement('p');
+            let picture = document.createElement
            
           
             // Change the textContent property of the h2 element to contain the prophet's full name
@@ -42,7 +43,8 @@ fetch(requestURL)
             card.appendChild(mlevel);
           
             // Add/append the existing HTML div with the cards class with the section(card)
-            document.querySelector('div.cards').appendChild(card);
+            //document.querySelector('div.cards').appendChild(card);
+            cards.append(cards);
           
     });
   });

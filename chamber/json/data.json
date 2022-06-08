@@ -1,4 +1,5 @@
-[
+{
+    "directory": [
     {
         "company name": "Ice Cream",
         "address": "123 Sugercone Ln, Mount Saratoga UT 84045",
@@ -64,3 +65,4 @@
     }
 
 ]
+}
