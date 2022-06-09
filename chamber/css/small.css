@@ -759,11 +759,9 @@ form textarea {
 }
 
 .groups div {
-    margin: 10px;
-    padding: 20px;
     background-color: #ffffff;
     border: 1px solid #32292f;
-    box-shadow: 3px 3px 10px rgb(54, 54, 54);
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);    
 }
 
 .groups img {
@@ -780,36 +778,32 @@ form textarea {
 }
 
 .list {
-   
     flex-direction: column;
 }
 
 .list div {
-    padding: 10px 15px;
-    border: .2px solid black;
+    padding: 15px;
+    margin: 10px;
 }
 
 .list div img {
     display: none;
 }
-
+/*
 list div:nth-child(odd) {
     background: #ffffff;
 }
-
-/********* Grid Styling************/
-/*.grid div {
-    flex-direction: column;
-    text-align: center;
-}
 */
+/********* Grid Styling************/
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    align-items: center;
 }
 
 .grid div {
-    /*flex-direction: column;*/
     text-align: center;
+    align-items: center;
+    margin: 10px;
+    padding: 5px 0px 20px 0px;
 }
