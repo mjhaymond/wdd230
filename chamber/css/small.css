@@ -728,3 +728,24 @@ form textarea {
 .thankyou2 p {
     padding: 0px 10px 20px 010px;
 }
+
+
+
+/******************************************************/
+/******************************************************/
+/******************DIRECTORY PAGE**********************/
+
+/********* List Styling************/
+.groups div {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.groups img {
+    border: none;
+    box-shadow: none;
+}
