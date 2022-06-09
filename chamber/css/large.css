@@ -120,10 +120,6 @@ div.groups {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-
-
-
-
 div.groups.grid {
     grid-template-columns: 1fr 1fr 1fr;
 }

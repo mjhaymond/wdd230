@@ -752,10 +752,6 @@ form textarea {
     border: 1px solid #32292f;
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
 }
-/*
-div.groups {
-    display: grid;
-}*/
 
 .groups div {
     background-color: #ffffff;
