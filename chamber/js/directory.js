@@ -11,9 +11,9 @@ fetch(requestURL)
     const groups = document.querySelector('.groups');
 
     directory.forEach(company => {
-            // Create elements to add to the document          
+            // Create elements to add to the document  
+            let  picture = document.createElement('img');        
             let  group = document.createElement('div');
-            let  picture = document.createElement('img');
             let  companyName = document.createElement('h3');
             let  address = document.createElement('p');
             let  phoneNumber = document.createElement('p');
@@ -36,12 +36,13 @@ fetch(requestURL)
           
           
             // Add/append the section(card) with the h2 element
+            group.appendChild(picture);
             group.appendChild(companyName);
             group.appendChild(address);
             group.appendChild(phoneNumber);
             group.appendChild(website);
             group.appendChild(membership);
-            group.appendChild(picture);
+            
           
             // Add/append the existing HTML div with the cards class with the section(card)
             //document.querySelector('div.cards').appendChild(card);
