@@ -762,6 +762,11 @@ form textarea {
     background-color: #ffffff;
     border: 1px solid #32292f;
     box-shadow: 3px 3px 10px rgb(54, 54, 54);    
+
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px 10px 20px 10px;
 }
 
 .groups img {

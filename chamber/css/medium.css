@@ -245,13 +245,17 @@ form {
 /******************************************************/
 /******************DIRECTORY PAGE**********************/
 
+.groups div {
+    grid-template-columns: 1fr 1fr;
+}
+
 /****List Styling*****/
 .list div {
     display: flex;
 }
 
 .list div p {
-    
+
 }
 
 /****Grid Styling*****/
