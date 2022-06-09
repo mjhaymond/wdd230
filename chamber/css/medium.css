@@ -245,18 +245,27 @@ form {
 /******************************************************/
 /******************DIRECTORY PAGE**********************/
 
-.groups div {
+div.groups.grid {
     grid-template-columns: 1fr 1fr;
 }
 
+
 /****List Styling*****/
+
 .list div {
     display: flex;
+    text-align: left;
 }
 
 .list div p {
-
+    font-size: 16px;
+    padding: 10px;
 }
+
+#directorytitle {
+    font-size: 16px;
+}
+
 
 /****Grid Styling*****/
 .grid {

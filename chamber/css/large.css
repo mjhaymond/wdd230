@@ -108,24 +108,20 @@ form label.sbs {
 /******************************************************/
 /******************DIRECTORY PAGE**********************/
 
+.groups .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 /****List Styling*****/
-/*.list div {
-    display: flex;
+
+.list {
+    flex-direction: row;
 }
 
-.groups div {
-    display: flex;
-}
-
-.group div {
-    display: flex;
-}
-*/
 /****Grid Styling*****/
 .grid {
     grid-template-columns: 1fr 1fr 1fr;
 }
-
 
 
 
