@@ -749,14 +749,17 @@ form textarea {
     padding: 15px 40px;
     margin: 10px;
     background: linear-gradient(0.25turn, #b1d3d3, #faf2d6, #ffffff, #faf2d6, #b1d3d3);
+    border: 1px solid #32292f;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);
 }
 
 /********* List Styling************/
+.groups {
+    display: grid;
+}
+
 .groups div {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    margin: 20px;
+    margin: 10px;
     padding: 20px;
     background-color: #ffffff;
     border: 1px solid #32292f;
@@ -776,3 +779,37 @@ form textarea {
     font-size: 22px;
 }
 
+.list {
+   
+    flex-direction: column;
+}
+
+.list div {
+    padding: 10px 15px;
+    border: .2px solid black;
+}
+
+.list div img {
+    display: none;
+}
+
+list div:nth-child(odd) {
+    background: #ffffff;
+}
+
+/********* Grid Styling************/
+/*.grid div {
+    flex-direction: column;
+    text-align: center;
+}
+*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: center;
+}
+
+.grid div {
+    /*flex-direction: column;*/
+    text-align: center;
+}
