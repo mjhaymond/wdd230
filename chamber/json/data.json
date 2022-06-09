@@ -3,7 +3,7 @@
     {
         "logo": "ice-cream1.webp",
         "companyName": "Sugar Cream Shop",
-        "address": "123 Sugarcane Ln, Mount Saratoga UT 84045",
+        "address": "123 Sugarcane Ln, Mount Saratoga, UT 84045",
         "phoneNumber": "(801)123-4567",
         "website": "https://www.sugarcream.com",
         "membership": "Silver Member"
@@ -11,7 +11,7 @@
     {
         "logo": "boat-01.webp",
         "companyName": "Boat Tours",
-        "address": "456 Silver Lake Rd, Mount Saratoga UT 84045",
+        "address": "456 Silver Lake Rd, Mount Saratoga, UT 84045",
         "phoneNumber": "(801)233-6567",
         "website": "https://www.boat-tours.com",
         "membership": "Bronze Member"
@@ -19,7 +19,7 @@
     {
         "logo": "bike-01.webp",
         "companyName": "Bike Life",
-        "address": "789 Happy Trails Rd, Mount Saratoga UT 84045",
+        "address": "789 Happy Trails Rd, Mount Saratoga, UT 84045",
         "phoneNumber": "(801)753-4717",
         "website": "https://www.bikelife.com",
         "membership": "Silver Member"
@@ -27,7 +27,7 @@
     {
         "logo": "cafe-01.webp",
         "companyName": "The Cocoa Cafe",
-        "address": "102 Lazy Lane, Mount Saratoga UT 84045",
+        "address": "102 Lazy Lane, Mount Saratoga, UT 84045",
         "phoneNumber": "(801)623-5667",
         "website": "https://www.thecatcafe.com",
         "membership": "Gold Member"
@@ -35,7 +35,7 @@
     {
         "logo": "bakery1.webp",
         "companyName": "Bake My Day",
-        "address": "203 High Rise Rd, Mount Saratoga UT 84045",
+        "address": "203 High Rise Rd, Mount Saratoga, UT 84045",
         "phoneNumber": "(801)483-6767",
         "website": "https://www.bakemyday.com",
         "membership": "Bronze Member"
@@ -43,7 +43,7 @@
     {
         "logo": "bookstore1.webp",
         "companyName": "Puffin Books",
-        "address": "304 Turner Ave, Mount Saratoga UT 84045",
+        "address": "304 Turner Ave, Mount Saratoga, UT 84045",
         "phoneNumber": "(801)423-4517",
         "website": "https://www.puffinbooks.com",
         "membership": "Bronze Member"
@@ -51,7 +51,7 @@
     {
         "logo": "tux1.webp",
         "companyName": "All Dressed Up",
-        "address": "405 Looking Good Ln, Mount Saratoga UT 84045",
+        "address": "405 Looking Good Ln, Mount Saratoga, UT 84045",
         "phoneNumber": "(801)134-4520",
         "website": "https://www.alldressedup.com",
         "membership": "Gold Member"
@@ -59,7 +59,7 @@
     {
         "logo": "hotel-01.webp",
         "companyName": "Comfort Hotel",
-        "address": "506 Sleep Late Ln, Mount Saratoga UT 84045",
+        "address": "506 Sleep Late Ln, Mount Saratoga, UT 84045",
         "phoneNumber": "(801)673-4565",
         "website": "https://www.comforthotel.com",
         "membership": "Silver Member"
@@ -67,7 +67,7 @@
     {
         "logo": "theater1.webp",
         "companyName": "Classic Theater",
-        "address": "607 Sugercone Ln, Mount Saratoga UT 84045",
+        "address": "607 Sugercone Ln, Mount Saratoga, UT 84045",
         "phoneNumber": "(801)745-4997",
         "website": "https://www.classictheater.com",
         "membership": "Silver Member"
