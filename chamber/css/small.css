@@ -743,9 +743,17 @@ form textarea {
     margin: 20px;
     padding: 20px;
     background-color: #ffffff;
+    border: 1px solid #32292f;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);
 }
 
 .groups img {
     border: none;
     box-shadow: none;
+    width: 150px;
+}
+
+ .groups h2 {
+    color: #000000;
+    font-family: Lato, sans-serif;;
 }

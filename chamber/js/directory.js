@@ -14,7 +14,7 @@ fetch(requestURL)
             // Create elements to add to the document  
             let  picture = document.createElement('img');        
             let  group = document.createElement('div');
-            let  companyName = document.createElement('h3');
+            let  companyName = document.createElement('h2');
             let  address = document.createElement('p');
             let  phoneNumber = document.createElement('p');
             let  website = document.createElement('p');
