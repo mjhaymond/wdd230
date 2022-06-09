@@ -752,10 +752,10 @@ form textarea {
     border: 1px solid #32292f;
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
 }
-
-.groups {
+/*
+div.groups {
     display: grid;
-}
+}*/
 
 .groups div {
     background-color: #ffffff;
@@ -783,9 +783,8 @@ form textarea {
 
 
 /********* List Styling************/
-
-.list {
-    flex-direction: column;
+div.groups.list {
+    display: grid;
 }
 
 .list div {

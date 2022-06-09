@@ -107,16 +107,13 @@ form label.sbs {
 /******************************************************/
 /******************************************************/
 /******************DIRECTORY PAGE**********************/
-
-.groups .grid {
+div.groups {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+
 /****List Styling*****/
 
-.list {
-    flex-direction: row;
-}
 
 /****Grid Styling*****/
 .grid {
@@ -127,6 +124,9 @@ form label.sbs {
 
 
 
+div.groups.grid {
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 }
 

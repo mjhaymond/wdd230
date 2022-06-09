@@ -2,7 +2,7 @@
     "directory": [
     {
         "logo": "ice-cream1.webp",
-        "companyName": "Sugar Cream Shop",
+        "companyName": "Sugar Cream",
         "address": "123 Sweet St, Mount Saratoga, UT 84045",
         "phoneNumber": "(801)123-4567",
         "website": "www.sugarcream.com",
@@ -26,7 +26,7 @@
     },
     {
         "logo": "cafe-01.webp",
-        "companyName": "The Cocoa Cafe",
+        "companyName": "Cocoa Cafe",
         "address": "102 Cocoa St, Mount Saratoga, UT 84045",
         "phoneNumber": "(801)623-5667",
         "website": "www.thecatcafe.com",
@@ -50,7 +50,7 @@
     },
     {
         "logo": "tux1.webp",
-        "companyName": "All Dressed Up",
+        "companyName": "Dressed Up",
         "address": "405 Style Ln, Mount Saratoga, UT 84045",
         "phoneNumber": "(801)134-4520",
         "website": "www.alldressedup.com",

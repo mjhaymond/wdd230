@@ -245,6 +245,10 @@ form {
 /******************************************************/
 /******************DIRECTORY PAGE**********************/
 
+div.groups.list {
+    grid-template-columns: 1fr;
+}
+
 div.groups.grid {
     grid-template-columns: 1fr 1fr;
 }
