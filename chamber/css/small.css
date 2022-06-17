@@ -571,7 +571,7 @@ img[data-src] {
 
 /******form styling*******/
 form fieldset {
-    margin: 10px;
+    margin: 30px;
     border: 1px solid #32292f;
     padding: 20px;
     background-color: #ffffff;
@@ -592,7 +592,7 @@ form label.top, form div {
     display: block;
     color: #32292f;
     font-size: .8rem;
-    margin: 20px;
+    margin: 20px 0px 0px 0px;
 }
 
 form label.top input, form label.top select {
@@ -611,6 +611,7 @@ form label.sbs {
     display: block;
     padding: .75rem 0;
     color: #32292f;
+    font-size: 20px;
 }
 
 form input.submitBtn {
