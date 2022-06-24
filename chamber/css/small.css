@@ -639,19 +639,20 @@ form label.sbs {
     font-size: 20px;
 }
 
-form input.submitBtn {
+form button.send, .sndc {
     border: 1px solid #32292f;
     background-color: #355f5f;
     color: #ffffff;
     border-radius: 1rem;
     padding: 10px 40px;
-    margin: 10px;
-    width: 96%;
+    margin: 1.5rem 0 2rem 0%;
+    width: 100%;
     max-width: 45rem;
     font-size: 100%;
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
     cursor: pointer;
 }
+
 
 form label.top input:required {
     border-left: rgb(201, 93, 93) solid 6px;
@@ -831,4 +832,42 @@ div.groups.list {
     align-items: center;
     margin: 10px;
     padding: 10px 20px 20px 20px;
+}
+
+
+/******************************************************/
+/******************************************************/
+/********************CONTACT PAGE**********************/
+
+.mem-info {
+    margin: 0 auto;
+    max-width: 45rem;
+  }
+
+.contact-grid {
+    display: grid;
+margin: 20px;
+background-color: #ffffff;
+padding: 10px;
+border: 1px solid #32292f;
+box-shadow: 3px 3px 10px #363636;
+}
+
+.contact-box, .contact-img {
+    border: 1px solid #32292f;
+    box-shadow: 3px 3px 10px #363636;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-grid h2 {
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
+    background-color: #355f5f90;
+}
+
+#pg-title {
+    padding: 10px;
+    margin: 20px 20px 0px 20px;
+    text-align: center;
 }
