@@ -846,11 +846,11 @@ div.groups.list {
 
 .contact-grid {
     display: grid;
-margin: 20px;
-background-color: #ffffff;
-padding: 10px;
-border: 1px solid #32292f;
-box-shadow: 3px 3px 10px #363636;
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #32292f;
+    box-shadow: 3px 3px 10px #363636;
 }
 
 .contact-box, .contact-img {

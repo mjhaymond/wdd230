@@ -277,8 +277,10 @@ div.list h2 {
     grid-template-columns: 1fr 1fr;
 }
 
-
-
+/******************CONTACT PAGE *******************/
+.contact-grid {
+    margin: 20px 75px;
+}
 
 
 
