@@ -616,7 +616,7 @@ form legend {
 form label.top, form div {
     display: block;
     color: #32292f;
-    font-size: .8rem;
+    font-size: 16px;
     margin: 20px 0px 0px 0px;
 }
 
