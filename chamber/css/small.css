@@ -6,7 +6,6 @@
 }
 
 body {
-    font-size: 16px;
     font-family: Lato, sans-serif;
     max-width: 1160px;
     margin: 0 auto;
@@ -15,7 +14,6 @@ body {
 
 img {
     width: 100%;
-    height: auto;
     border: 1px solid #32292f;
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
 }
@@ -390,12 +388,6 @@ figcaption {
 /********************************************/
 .box5 {
     display: none;
-}
-
-.box1, .box2, .box3, .box4, .box6 {
-    border: 2px solid #32292f;
-    background-color: white;
-    padding: 10px;
 }
 
 .box6 p {
@@ -786,7 +778,7 @@ form textarea {
     box-shadow: 3px 3px 10px rgb(54, 54, 54);    
 
     text-align: center;
-    align-items: center;
+   
     margin: 10px;
     padding: 10px 10px 20px 10px;
 }
@@ -846,7 +838,6 @@ div.groups.list {
 
 .contact-grid {
     display: grid;
-    margin: 20px;
     background-color: #ffffff;
     padding: 10px;
     border: 1px solid #32292f;
