@@ -10,7 +10,7 @@ fetch(requestURL)
     const temples = jsonObject['temples'];
     const groups = document.querySelector('.templeCards');
 
-    directory.forEach(temple => {
+    temples.forEach(temple => {
             // Create elements to add to the document  
             let  picture = document.createElement('img');        
             let  group = document.createElement('div');
