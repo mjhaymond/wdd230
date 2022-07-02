@@ -101,15 +101,21 @@ h2 {
     width: 100%;
     border: 1px solid black;
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
+    object-fit: cover;
 }
 
 .page-intro {
     margin: 30px;
 }  
 
+.main-divs {
+    margin: 20px;
+}
+
 .cards {
     border: 1px solid black;
     padding: 10px;
+    background-color: white;
 }  
   
 
@@ -148,8 +154,7 @@ footer .lastline {
 }
 
 
-.social a img {
-   
+.social a img {  
     border: none;
     margin: 5px;
 }
@@ -166,13 +171,34 @@ footer .lastline {
     display: grid;
     grid-template-columns: 1fr;
     gap: 15px;
-    margin: 20px;
 }
 
-#temple-img {
-    object-fit: cover;
-}
 
 /**********************************************/
 /********************** TEMPLES PAGE *************/
 
+#temple-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.t-cards {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #b1d3d3;
+}
+
+.temple-button {
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.temple-button a {
+    text-decoration: none;
+    font-family: Lobster Two, cursive;
+    font-size: 24px;
+}

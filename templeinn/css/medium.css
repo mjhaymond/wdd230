@@ -8,7 +8,6 @@
 
 /************** Footer ************/
 
-
 .foot1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -22,5 +21,17 @@
 .address {
     margin: 20px 0px 0px 0px;
 }
+
+/**********************************************/
+/********************** HOME PAGE *************/
+
+
+/**********************************************/
+/********************** TEMPLES PAGE *************/
+
+#temple-grid {
+    grid-template-columns: 1fr 1fr; 
+}
+
 
 }
