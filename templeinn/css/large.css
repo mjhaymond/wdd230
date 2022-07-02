@@ -1,0 +1,59 @@
+@media only screen and (min-width: 1000px) {
+
+
+/************** Header ************/
+
+/************** Navigation ************/
+
+.mainMenu li:first-child { 
+    display: none;	
+}
+
+.mainMenu li {
+    display: inline-block;
+}
+
+.mainMenu ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainMenu a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5em;            
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+}    
+
+/********************** Body *************/
+
+
+
+/************** Footer ************/
+
+
+
+/**********************************************/
+/********************** HOME PAGE *************/
+
+#home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#temple-intro {
+    grid-column: 1/2;
+}
+
+#temple-img {
+    grid-column: 2/3;
+}
+
+
+
+
+
+
+}

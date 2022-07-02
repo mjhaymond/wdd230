@@ -1,0 +1,26 @@
+@media only screen and (min-width: 760px) {
+
+/************** Header ************/
+
+/************** Navigation ************/
+
+/********************** Body *************/
+
+/************** Footer ************/
+
+
+.foot1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.social {
+    grid-column: 2/3;
+    margin: 0;
+}
+
+.address {
+    margin: 20px 0px 0px 0px;
+}
+
+}

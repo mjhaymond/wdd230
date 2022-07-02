@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <meta name="description" content="Temple Inn and Suites Home page" />
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lobster+Two&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+</head>
+
+<!-- HEADER HERE -->
+
+<body>
+    <header>
+
+        <div class="heading">
+            <img src="images/TempleInn.png" alt="Logo for The Temple Inn and Suites">
+            <h1>Temple Inn and Suites</h1>
+            <p>
+                <span id="currentDate"></span>
+            </p>
+        </div>
+        <nav>
+            <ul class="mainMenu">
+                <li class="menubutton"><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="home.html" class="currentpage">Home</a></li>
+                <li><a href="temples.html">Temples</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+        </nav>
+
+
+    </header>
+
+    <!-- CONTENT HERE -->
+    <main>
+        <div class="page-intro">
+            <h2>Our Mission</h2>
+            <p>
+                The Temple Inn and Suites is dedicated to providing a beautiful, comfortable, and peaceful
+                place for members of the Church of Jesus Christ to stay when attending or serving in the
+                temple. Our Inn is pleased to provide specialized services unique to temple attendance such
+                as a shuttle service, child care, and changing rooms to temple patrons. Allow us to
+                serve you and your temple attendance needs at the Temple Inn and Suites.
+            </p>
+        </div>
+        <div id="home-grid">
+            <div class="cards" id="temple-intro">
+                <h2>Temple Spotlight</h2>
+                <h3>Saratoga Springs Utah, USA</h3>
+                <p>The Saratoga Springs Utah Temple was announced on 2 April 2017. The groundbreaking and Site
+                    dedication took place on 19 October 2019 by Elder Craig C. Christensen. At the groundbreaking
+                    Elder Christensen said, "I realized…how this particular temple will bless many individuals
+                    and families, including your children, your marriages, your families, and, especially, many
+                    of your ancestors. This is the place where your children and families will be
+                    protected from the evils that are ever present in the world today, and to make sacred covenants
+                    with the Lord." This temple is not yet complete, but is scheduled to be dedicated sometime in
+                    2022. It will have four instruction rooms, six sealing rooms, and one baptistry.
+                </p>
+            </div>
+            <div class="cards">
+                <img class="all-images" src="images/SaratogaSpringsUtahTemple.jpeg" alt="Saratoga Springs Temple">
+            </div>
+
+            <div class="cards">
+                <h2>Current Weather Conditions</h2>
+            </div>
+            <div class="cards">
+                <h2>Three Day Weather Forecast</h2>
+            </div>
+        </div>
+    </main>
+    <!-- FOOTER HERE -->
+    <footer>
+        <div class="foot1">
+            <div>
+                <ul class="page-list">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="reception.html">Reception Information</a></li>
+                    <li><a href="missionary.html">Full-Time Temple Missionaries</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </div>
+            <div class="address">
+                <h3><b>Temple Inn and Suites</b></h3>
+                <p>
+                    4800 Montgomery Ln #300<br>
+                    Bethesda, MD 20814<br><br>
+                    <a href="https://goo.gl/maps/7t7mKauFCyAYHscX8">
+                        <i class="material-icons">&#xe567;</i>Location Map</a>
+                </p>
+                <br>
+                <p>
+                    customerservice@templeinn.com<br>
+                    (000)999-9999
+                </p>
+            </div>
+            <div class="weather-api">
+                <a href="https://openweathermap.org//">OpenWeatherMap.org</a>
+            </div>
+            <div class="social">
+                <a href="https://facebook.com" target="blank"><img src="images/facebook.png" alt="Facebook Logo"
+                        width="25"></a>
+                <a href="https://instagram.com" target="blank"><img src="images/instagram.png" alt="Linkedin Logo"
+                        width="25"></a>
+                <a href="https://twitter.com" target="blank"><img src="images/twitter.png" alt="Facebook Logo"
+                        width="25"></a>
+            </div>
+        </div>
+        <p class="lastline">
+            &copy;<span id="currentYear"></span> Mount Saratoga Chamber |
+            Merry Haymond | WDD 230 Final Project | Last Updated: <span id="updatedDate"></span>
+        </p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
