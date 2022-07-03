@@ -14,7 +14,8 @@
         "title5": "History:",
         "announcement": "Announcement: 2 April 2017", 
         "groundbreaking": "Groundbreaking and Site Dedication: 19 October 2019 by Craig C. Christensen",
-        "dedication": "Dedication: Estimated completion in late 2022"
+        "dedication": "Dedication: Estimated completion in late 2022",
+        "button": "More Info"
     },
     {
         "picture": "PaysonUtahTemple.jpg",
@@ -30,7 +31,8 @@
         "title5": "History:",
         "announcement": "Announcement: 25 January 2010", 
         "groundbreaking": "Groundbreaking and Site Dedication:  8 October 2011 by Dallin H. Oaks",
-        "dedication": "Dedication: 7 June 2015 by Henry B. Eyring"
+        "dedication": "Dedication: 7 June 2015 by Henry B. Eyring",
+        "button": "More Info"
     },
     {
         "picture": "LaytonUtahTemple.jpg",
@@ -46,7 +48,8 @@
         "title5": "History:",
         "announcement": "Announcement: 1 April 2018", 
         "groundbreaking": "Groundbreaking: 23 May 2020 by Craig C. Christensen",
-        "dedication": "Dedication: Estimated completion in early 2023"
+        "dedication": "Dedication: Estimated completion in early 2023",
+        "button": "More Info"
     },
     {
         "picture": "OgdenUtahTemple.jpg",
@@ -62,7 +65,8 @@
         "title5": "History:",
         "announcement": "Announcement:  24 August 1967", 
         "groundbreaking": "Groundbreaking:  8 September 1969 by Hugh B. Brown",
-        "dedication": "Dedication: 18–20 January 1972 by Joseph Fielding Smith"
+        "dedication": "Dedication: 18–20 January 1972 by Joseph Fielding Smith",
+        "button": "More Info"
     }
 ]
 }
