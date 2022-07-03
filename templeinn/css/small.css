@@ -179,10 +179,11 @@ footer .lastline {
 
 .templeinfo-button {
     border: 1px solid black;
-    background-color: pink;
+    background-color: #8c9caa;
     padding: 10px;
-    margin: 15px;
+    margin: 25px;
     text-align: center;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .templeinfo-button a {
@@ -193,19 +194,19 @@ footer .lastline {
 }
 
 .templeinfo-button:hover {
-    background-color: yellow;
+    background-color: #b7c9d9;
 }
 
 .templeCards {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 15px;
+    gap: 25px;
 }
 
 .templeCards div {
     border: 1px solid black;
     padding: 10px;
-    margin: 0px 15px;
+    margin: 0px 25px;
     background-color: white;
 }
 
@@ -218,6 +219,8 @@ footer .lastline {
 
 .templeCards h2 {
     margin: 8px;
+    text-align: center;
+    font-size: 32px;
 }
 
 .templeCards h4 {
@@ -225,11 +228,15 @@ footer .lastline {
     text-align: center;
     margin: 10px;
     padding: 10px;
-    background-color: pink;
+    background-color: rgb(192, 229, 255);
 }
 
 .templeCards h3 {
     margin: 8px 0px 0px 0px;
+}
+
+.quote {
+    margin: 40px;
 }
 
 

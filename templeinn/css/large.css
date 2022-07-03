@@ -55,11 +55,42 @@
 /**********************************************/
 /********************** TEMPLES PAGE *************/
 
-#temple-grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+.templeCards {
+    grid-template-columns: 1fr 1fr;
+  
+}
+
+.templeCards div {
+    margin: 0;
+}
+
+#cardborder {
+    margin: 25px;
+}
+
+.templeinfo-button {
+    margin: 15px;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px;
 }
 
 
+
+#temple-btn1 {
+    grid-column: 1/2;
+}
+
+#temple-btn2 {
+    grid-column: 2/3;
+}
+
+#temple-btn3 {
+    grid-column: 3/4;
+}
 
 
 
