@@ -174,7 +174,7 @@ footer .lastline {
 }
 
 
-/**********************************************/
+/*************************************************/
 /********************** TEMPLES PAGE *************/
 
 .templeCards {
@@ -199,6 +199,14 @@ footer .lastline {
 
 .templeCards h2 {
     margin: 8px;
+}
+
+.templeCards h4 {
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: pink;
 }
 
 

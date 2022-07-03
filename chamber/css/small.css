@@ -337,52 +337,25 @@ figcaption {
 /********************************************/
 /***********Box-6 SPOTLIGHTS ****************/
 
-/***************SP1 BOAT TOUR****************/
-.boat {
-    position: absolute;
-    top: 20px;
-    left: -1px;
-    padding: 5px 15px 5px 30px;
+.busSec h2 {
+    padding: 10px;
     background-color: #355f5f90;
+    font-size: 26px;
+    text-align: center;
 }
-.split1 {
-    position: relative;
+.busSec {
+  
 }
-.split1 p {
-    color: #32292f;
-    padding: 5px 0px;
-}
-/**********SP2 BED & BREAKFAST**************/
-.bed {
-    position: absolute;
-    top: 20px;
-    left: 0px;
-    padding: 5px 15px 5px 30px;
-    background-color: #355f5f90;
-}
-.split2 {
-    position: relative;
-}
-.split2 p {
+.busSec p {
     color: #32292f;
     padding: 5px 0px;
 }
 
-/*************SP3 RESTAURANT*****************/
-.cafe {
-    position: absolute;
-    top: 20px;
-    left: 0px;
-    padding: 5px 15px 5px 30px;
-    background-color: #355f5f90;
+.busSec img {
+    border: none;
+    box-shadow: none;
 }
-.split3 {
-    position: relative;
-}
-.split3 p {
-    color: #32292f;
-    padding: 5px 0px;
-}
+
 
 /***************BOX 6 End *******************/
 /********************************************/
