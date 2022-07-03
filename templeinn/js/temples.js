@@ -15,11 +15,15 @@ fetch(requestURL)
             let  picture = document.createElement('img');        
             let  group = document.createElement('div');
             let  templeName = document.createElement('h2');
-            let  title = document.createElement('h3');
+            let  title1 = document.createElement('h3');
             let  address = document.createElement('p');
+            let  title2 = document.createElement('h3');
             let  phoneNumber = document.createElement('p');
+            let  title3 = document.createElement('h3');
             let  email = document.createElement('p');
+            let  title4 = document.createElement('h3');
             let  services = document.createElement('p');
+            let  title5 = document.createElement('h3');
             let  announcement = document.createElement('p');
             let  groundbreaking = document.createElement('p');
             let  dedication = document.createElement('p');
@@ -33,11 +37,15 @@ fetch(requestURL)
           
             // Change the textContent property of the h3 element to contain the companies full name
             templeName.textContent = `${temple.templeName}`;
-            title.textContent = `${temple.title}`;
+            title1.textContent = `${temple.title1}`;
             address.textContent = `${temple.address}`;
+            title2.textContent = `${temple.title2}`;
             phoneNumber.textContent = `${temple.phoneNumber}`;
+            title3.textContent = `${temple.title3}`;
             email.textContent = `${temple.email}`;
+            title4.textContent = `${temple.title4}`;
             services.textContent = `${temple.services}`;
+            title5.textContent = `${temple.title5}`;
             announcement.textContent = `${temple.announcement}`;
             groundbreaking.textContent = `${temple.groundbreaking}`;
             dedication.textContent = `${temple.dedication}`;
@@ -46,11 +54,15 @@ fetch(requestURL)
             // Add/append the section(card) with the h2 element
             group.appendChild(picture);
             group.appendChild(templeName);
-            group.appendChild(title);
+            group.appendChild(title1);
             group.appendChild(address);
+            group.appendChild(title2);
             group.appendChild(phoneNumber);
+            group.appendChild(title3);
             group.appendChild(email);
+            group.appendChild(title4);
             group.appendChild(services);
+            group.appendChild(title5);
             group.appendChild(announcement);
             group.appendChild(groundbreaking);
             group.appendChild(dedication);
