@@ -1,7 +1,7 @@
 {
     "temples": [
     {
-        "picture": "SaratogaSpringsUtahTemple1.jpg",
+        "picture": "SaratogaSpringsUtahTemple.jpg",
         "templeName": "Saratoga Springs Utah Temple",
         "address": "987 South Ensign Drive Saratoga Springs, Utah",
         "phoneNumber": "(801) 000-0000",
@@ -12,7 +12,7 @@
         "dedication": "Dedication: Estimated completion in late 2022"
     },
     {
-        "picture": "PaysonUtahTemple.jpg",
+        "picture": "PaysonUtahTemple1.jpg",
         "templeName": "Payson Utah Temple",
         "address": "1494 South 930 West Payson, Utah",
         "phoneNumber": " (801)754-4949",
