@@ -15,6 +15,7 @@ fetch(requestURL)
             let  picture = document.createElement('img');        
             let  group = document.createElement('div');
             let  templeName = document.createElement('h2');
+            let  title = document.createElement('h3');
             let  address = document.createElement('p');
             let  phoneNumber = document.createElement('p');
             let  email = document.createElement('p');
@@ -32,6 +33,7 @@ fetch(requestURL)
           
             // Change the textContent property of the h3 element to contain the companies full name
             templeName.textContent = `${temple.templeName}`;
+            title.textContent = `${temple.title}`;
             address.textContent = `${temple.address}`;
             phoneNumber.textContent = `${temple.phoneNumber}`;
             email.textContent = `${temple.email}`;
@@ -44,6 +46,7 @@ fetch(requestURL)
             // Add/append the section(card) with the h2 element
             group.appendChild(picture);
             group.appendChild(templeName);
+            group.appendChild(title);
             group.appendChild(address);
             group.appendChild(phoneNumber);
             group.appendChild(email);
@@ -60,24 +63,4 @@ fetch(requestURL)
     });
   });
 
-  /* --------- buttons ---------- */
-
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector(".groups");
-
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
-
-gridbutton.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.add("grid");
-	display.classList.remove("list");
-});
-
-listbutton.addEventListener("click", showList); // example using defined function
-
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
-}
 

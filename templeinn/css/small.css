@@ -177,6 +177,32 @@ footer .lastline {
 /**********************************************/
 /********************** TEMPLES PAGE *************/
 
+.templeCards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.templeCards div {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0px 15px;
+    background-color: white;
+}
+
+.templeCards img {
+    width: 100%;
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);
+    object-fit: cover;
+}
+
+.templeCards h2 {
+    margin: 8px;
+}
+
+
+/*
 #temple-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -201,4 +227,4 @@ footer .lastline {
     text-decoration: none;
     font-family: Lobster Two, cursive;
     font-size: 24px;
-}
+}*/

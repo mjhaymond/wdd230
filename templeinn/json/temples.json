@@ -3,6 +3,7 @@
     {
         "picture": "SaratogaSpringsUtahTemple.jpg",
         "templeName": "Saratoga Springs Utah Temple",
+        "title": "Address:",
         "address": "987 South Ensign Drive Saratoga Springs, Utah",
         "phoneNumber": "(801) 000-0000",
         "email": "saratogaspringsutahtemple@lds.org",
@@ -14,6 +15,7 @@
     {
         "picture": "PaysonUtahTemple.jpg",
         "templeName": "Payson Utah Temple",
+        "title": "Address:",
         "address": "1494 South 930 West Payson, Utah",
         "phoneNumber": " (801)754-4949",
         "email": "paysonutahtemple@lds.org",
@@ -25,6 +27,7 @@
     {
         "picture": "LaytonUtahTemple.jpg",
         "templeName": "Layton Utah Temple",
+        "title": "Address:",
         "address": "1400 East Oakhills Drive Layton, Utah",
         "phoneNumber": "(000)000-0000",
         "email": "laytonutahtemple@lds.org",
@@ -36,6 +39,7 @@
     {
         "picture": "OgdenUtahTemple.jpg",
         "templeName": "Ogden Utah Temple",
+        "title": "Address:",
         "address": "350 22nd Street Ogden, Utah",
         "phoneNumber": "(801)621-6880",
         "email": "ogdenutahtemple@lds.org",
