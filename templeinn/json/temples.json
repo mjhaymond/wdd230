@@ -19,7 +19,7 @@
     {
         "picture": "PaysonUtahTemple.jpg",
         "templeName": "Payson Utah Temple",
-        "title": "Address:",
+        "title1": "Address:",
         "address": "1494 South 930 West Payson, Utah",
         "title2": "Phone Number:",
         "phoneNumber": " (801)754-4949",
@@ -35,7 +35,7 @@
     {
         "picture": "LaytonUtahTemple.jpg",
         "templeName": "Layton Utah Temple",
-        "title": "Address:",
+        "title1": "Address:",
         "address": "1400 East Oakhills Drive Layton, Utah",
         "title2": "Phone Number:",
         "phoneNumber": "(000)000-0000",
@@ -51,7 +51,7 @@
     {
         "picture": "OgdenUtahTemple.jpg",
         "templeName": "Ogden Utah Temple",
-        "title": "Address:",
+        "title1": "Address:",
         "address": "350 22nd Street Ogden, Utah",
         "title2": "Phone Number:",
         "phoneNumber": "(801)621-6880",
