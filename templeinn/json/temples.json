@@ -2,7 +2,7 @@
     "temples": [
     {
         "picture": "SaratogaSpringsUtahTemple.jpg",
-        "templeName": "Saratoga Springs Utah Temple",
+        "templeName": "Saratoga Springs",
         "title1": "Address:",
         "address": "987 South Ensign Drive Saratoga Springs, Utah",
         "title2": "Phone Number:",
@@ -18,7 +18,7 @@
     },
     {
         "picture": "PaysonUtahTemple.jpg",
-        "templeName": "Payson Utah Temple",
+        "templeName": "Payson",
         "title1": "Address:",
         "address": "1494 South 930 West Payson, Utah",
         "title2": "Phone Number:",
@@ -34,7 +34,7 @@
     },
     {
         "picture": "LaytonUtahTemple.jpg",
-        "templeName": "Layton Utah Temple",
+        "templeName": "Layton",
         "title1": "Address:",
         "address": "1400 East Oakhills Drive Layton, Utah",
         "title2": "Phone Number:",
@@ -50,7 +50,7 @@
     },
     {
         "picture": "OgdenUtahTemple.jpg",
-        "templeName": "Ogden Utah Temple",
+        "templeName": "Ogden",
         "title1": "Address:",
         "address": "350 22nd Street Ogden, Utah",
         "title2": "Phone Number:",

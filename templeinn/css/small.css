@@ -239,6 +239,37 @@ footer .lastline {
     margin: 40px;
 }
 
+/*************************************************/
+/********** ORDINANCES SCHEDULE PAGE *************/
+
+#back-button a {
+    text-decoration: none;
+    margin: 35px;
+}
+
+#back-button a:hover {
+    color:blue
+} 
+
+#ordinance-grid {
+    display: grid;
+    gap: 15px;
+}
+
+#ordinance-grid h2 {
+    text-align: center;
+    margin: 15px;
+}
+
+#ordinance-grid h3 {
+    text-align: center;
+    margin: 15px;
+}
+
+#ordinance-grid p {
+    line-height: 1.2rem;
+}
+
 
 /*
 #temple-grid {
