@@ -27,6 +27,7 @@ fetch(requestURL)
             let  announcement = document.createElement('p');
             let  groundbreaking = document.createElement('p');
             let  dedication = document.createElement('p');
+            let  button = document.createElement('a');
            
 
             // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
@@ -49,7 +50,8 @@ fetch(requestURL)
             announcement.textContent = `${temple.announcement}`;
             groundbreaking.textContent = `${temple.groundbreaking}`;
             dedication.textContent = `${temple.dedication}`;
-          
+            button.textContent = `${temple.button}`;
+           
           
             // Add/append the section(card) with the h2 element
             group.appendChild(picture);
@@ -66,6 +68,7 @@ fetch(requestURL)
             group.appendChild(announcement);
             group.appendChild(groundbreaking);
             group.appendChild(dedication);
+            group.appendChild(button);
             
           
             // Add/append the existing HTML div with the cards class with the section(card)
