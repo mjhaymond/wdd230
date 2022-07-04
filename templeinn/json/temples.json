@@ -15,7 +15,7 @@
         "announcement": "Announcement: 2 April 2017", 
         "groundbreaking": "Groundbreaking: 19 October 2019 by Craig C. Christensen",
         "dedication": "Dedication: Estimated completion in late 2022",
-        "link": "href=saratogaspringstemple.html"
+        "saratogaLink": "Temple Schedule & Closures"
     },
     {
         "picture": "PaysonUtahTemple.jpg",
@@ -32,7 +32,7 @@
         "announcement": "Announcement: 25 January 2010", 
         "groundbreaking": "Groundbreaking:  8 October 2011 by Dallin H. Oaks",
         "dedication": "Dedication: 7 June 2015 by Henry B. Eyring",
-        "link": "href=paysontemple.html"
+        "paysonLink": "Temple Schedule & Closures"
     },
     {
         "picture": "LaytonUtahTemple.jpg",
@@ -49,7 +49,7 @@
         "announcement": "Announcement: 1 April 2018", 
         "groundbreaking": "Groundbreaking: 23 May 2020 by Craig C. Christensen",
         "dedication": "Dedication: Estimated completion in early 2023",
-        "link": "href=laytontemple.html"
+        "laytonLink": "Temple Schedule & Closures"
     },
     {
         "picture": "OgdenUtahTemple.jpg",
@@ -66,7 +66,7 @@
         "announcement": "Announcement:  24 August 1967", 
         "groundbreaking": "Groundbreaking:  8 September 1969 by Hugh B. Brown",
         "dedication": "Dedication: 18–20 January 1972 by Joseph Fielding Smith",
-        "link": "ogdentemple.html"
+        "OgdenLink": "Temple Schedule & Closures"
     }
 ]
 }
