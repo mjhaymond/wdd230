@@ -15,7 +15,8 @@
         "announcement": "Announcement: 2 April 2017", 
         "groundbreaking": "Groundbreaking: 19 October 2019 by Craig C. Christensen",
         "dedication": "Dedication: Estimated completion in late 2022",
-        "button": "Temple Schedule & Closures"
+        "button": "Temple Schedule & Closures",
+        "link": "href=home.html"
     },
     {
         "picture": "PaysonUtahTemple.jpg",
