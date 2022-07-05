@@ -7,10 +7,10 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
 
-    const templeschedule = jsonObject['templeschedule'];
-    const groups = document.querySelector('.templeCards');
+    const schedule = jsonObject['schedule'];
+    const groups = document.querySelector('.groups');
 
-    templeschedule.forEach(templeschedule => {
+    schedule.forEach(item => {
             // Create elements to add to the document  
             let  group = document.createElement('div');
             let  title = document.createElement('h2');        
@@ -27,25 +27,21 @@ fetch(requestURL)
             let  saturday = document.createElement('h3');
             let  satInfo = document.createElement('p');
 
-            // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-            picture.setAttribute('alt', `${templeschedule.templeName}`);
-            picture.setAttribute('loading', 'lazy');
-
           
             // Change the textContent property of the h3 element to contain the companies full name
-            templeName.textContent = `${templeschedule.title}`;
-            title1.textContent = `${templeschedule.monday}`;
-            address.textContent = `${templeschedule.monInfo}`;
-            title2.textContent = `${templeschedule.tuesday}`;
-            phoneNumber.textContent = `${templeschedule.tueInfo}`;
-            title3.textContent = `${templeschedule.wednesday}`;
-            email.textContent = `${templeschedule.wedInfo}`;
-            title4.textContent = `${templeschedule.thursday}`;
-            services.textContent = `${templeschedule.thurInfo}`;
-            title5.textContent = `${templeschedule.friday}`;
-            announcement.textContent = `${templeschedule.friInfo}`;
-            groundbreaking.textContent = `${templeschedule.saturday}`;
-            dedication.textContent = `${templeschedule.satInfo}`;
+            title.textContent = `${item.title}`;
+            monday.textContent = `${item.monday}`;
+            monInfo.textContent = `${item.monInfo}`;
+            tuesday.textContent = `${item.tuesday}`;
+            tueInfo.textContent = `${item.tueInfo}`;
+            wednesday.textContent = `${item.wednesday}`;
+            wedInfo.textContent = `${item.wedInfo}`;
+            thursday.textContent = `${item.thursday}`;
+            thurInfo.textContent = `${item.thurInfo}`;
+            friday.textContent = `${item.friday}`;
+            friInfo.textContent = `${item.friInfo}`;
+            saturday.textContent = `${item.saturday}`;
+            satInfo.textContent = `${item.satInfo}`;
            
           
             // Add/append the section(card) with the h2 element
