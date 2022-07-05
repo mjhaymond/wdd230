@@ -7,13 +7,13 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
 
-    const templeclosure = jsonObject['templeclosure'];
-    const groups = document.querySelector('.templeCards');
+    const closure = jsonObject['closure'];
+    const groups = document.querySelector('.closureInfo');
 
-    templeclosure.forEach(templeclosure => {
+    closure.forEach(item => {
             // Create elements to add to the document  
             let  group = document.createElement('div');
-            let  title = document.createElement('h2');        
+            let  title = document.createElement('h3');        
             let  date1 = document.createElement('p');
             let  date2 = document.createElement('p');
             let  date3 = document.createElement('p');
@@ -24,16 +24,14 @@ fetch(requestURL)
           
           
             // Change the textContent property of the h3 element to contain the companies full name
-            title.textContent = `${templeclosure.title}`;
-            date1.textContent = `${templeclosure.date1}`;
-            date2.textContent = `${templeclosure.date2}`;
-            date3.textContent = `${templeclosure.date3}`;
-            date4.textContent = `${templeclosure.date4}`;
-            date5.textContent = `${templeclosure.date5}`;
-            date6.textContent = `${templeclosure.date6}`;
-            date7.textContent = `${templeclosure.date7}`;
-            date8.textContent = `${templeclosure.date8}`;
-           
+            title.textContent = `${item.title}`;
+            date1.textContent = `${item.date1}`;
+            date2.textContent = `${item.date2}`;
+            date3.textContent = `${item.date3}`;
+            date4.textContent = `${item.date4}`;
+            date5.textContent = `${item.date5}`;
+            date6.textContent = `${item.date6}`;
+            date7.textContent = `${item.date7}`;
            
           
             // Add/append the section(card) with the h2 element
@@ -45,7 +43,6 @@ fetch(requestURL)
             group.appendChild(date5);
             group.appendChild(date6);
             group.appendChild(date7);
-            group.appendChild(date8);
            
 
           

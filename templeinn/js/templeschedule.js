@@ -8,23 +8,23 @@ fetch(requestURL)
     console.table(jsonObject);  // temporary checking for valid response and data parsing
 
     const schedule = jsonObject['schedule'];
-    const groups = document.querySelector('.groups');
+    const groups = document.querySelector('.scheduleInfo');
 
     schedule.forEach(item => {
             // Create elements to add to the document  
             let  group = document.createElement('div');
-            let  title = document.createElement('h2');        
-            let  monday = document.createElement('h3');
+            let  title = document.createElement('h3');        
+            let  monday = document.createElement('h4');
             let  monInfo = document.createElement('p');
-            let  tuesday = document.createElement('h3');
+            let  tuesday = document.createElement('h4');
             let  tueInfo = document.createElement('p');
-            let  wednesday = document.createElement('h3');
+            let  wednesday = document.createElement('h4');
             let  wedInfo = document.createElement('p');
-            let  thursday = document.createElement('h3');
+            let  thursday = document.createElement('h4');
             let  thurInfo = document.createElement('p');
-            let  friday = document.createElement('h3');
+            let  friday = document.createElement('h4');
             let  friInfo = document.createElement('p');
-            let  saturday = document.createElement('h3');
+            let  saturday = document.createElement('h4');
             let  satInfo = document.createElement('p');
 
           
