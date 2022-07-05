@@ -177,6 +177,48 @@ footer .lastline {
 /*************************************************/
 /********************** TEMPLES PAGE *************/
 
+#temple-grid {
+    display: grid;
+    gap: 15px;
+}
+
+.t-cards {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #9fc6c6;
+}
+
+.t-cards h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.t-cards h3 {
+    margin: 15px 0px 0px 0px;
+}
+
+.templeInfo {
+    margin: 20px;
+}
+
+.templeBtn-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.temple-button1, .temple-button2 {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.temple-button1 a, .temple-button2 a {
+    text-decoration: none;
+}
+
 .quote {
     margin: 40px;
 }
