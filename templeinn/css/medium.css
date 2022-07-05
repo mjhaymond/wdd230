@@ -36,14 +36,13 @@
 /*************************************************/
 /********** ORDINANCES SCHEDULE PAGE *************/
 
-#ordinance-grid {
-    grid-template-columns: 1fr 1fr;
-
+#json-divs {
+    margin: 35px 100px;
 }
 
-
-
-
+#back-button a {
+    margin: 100px;
+}
 
 
 

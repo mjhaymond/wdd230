@@ -55,38 +55,11 @@
 /**********************************************/
 /********************** TEMPLES PAGE *************/
 
-.templeCards {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  
-}
-
-.templeCards div {
-    margin: 0;
-}
-
-#cardborder {
-    margin: 25px;
-}
-
-.templeinfo-button {
-    margin: 15px;
-}
-
-.button-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 30px;
+#temple-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
 }
 
 
-
-#temple-btn1 {
-    grid-column: 1/2;
-}
-
-#temple-btn2 {
-    grid-column: 2/3;
-}
 
 /*************************************************/
 /********** ORDINANCES SCHEDULE PAGE *************/
@@ -95,6 +68,18 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
 }
+
+#json-divs {
+    margin: 35px 300px;
+}
+
+#back-button a {
+    margin: 300px;
+}
+
+
+
+
 
 
 
