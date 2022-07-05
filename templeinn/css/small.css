@@ -177,6 +177,12 @@ footer .lastline {
 /*************************************************/
 /********************** TEMPLES PAGE *************/
 
+.quote {
+    margin: 40px;
+}
+
+
+/*
 .templeinfo-button {
     border: 1px solid black;
     background-color: #8c9caa;
@@ -234,10 +240,10 @@ footer .lastline {
 .templeCards h3 {
     margin: 8px 0px 0px 0px;
 }
+*/
 
-.quote {
-    margin: 40px;
-}
+
+
 
 /*************************************************/
 /********** ORDINANCES SCHEDULE PAGE *************/
