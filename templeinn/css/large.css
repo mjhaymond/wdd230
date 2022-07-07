@@ -41,14 +41,28 @@
 #home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
-#temple-intro {
-    grid-column: 1/2;
-}
-
-#temple-img {
+#spotlight {
     grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#spotlight p {
+    padding: 20px;
+}
+
+#nightTemple {
+    grid-column: 3/4;
+}
+
+#resBtn {
+    margin: 5px 50px 10px 50px;
+}
+
+#threedayWeather {
+    grid-column: 2/4;
 }
 
 
@@ -59,6 +73,10 @@
     grid-template-columns: 1fr 1fr 1fr 1fr; 
 }
 
+.templeBtn-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 
 /*************************************************/
@@ -70,11 +88,11 @@
 }
 
 #json-divs {
-    margin: 35px 300px;
+    margin: 35px 200px;
 }
 
 #back-button a {
-    margin: 300px;
+    margin: 200px;
 }
 
 

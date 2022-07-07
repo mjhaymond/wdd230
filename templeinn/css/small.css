@@ -16,32 +16,32 @@ header img {
 }
 
 header {
-    background-color: #12122a;
+    background-color: #201e2c;
 }
 
 h1 {
     font-family: Lobster Two, cursive;
-    color: #b4eeed;
+    color: #d8cb89;
     text-align: center;
-    font-size: 34px;
+    font-size: 38px;
     padding: 20px;
 }
 
 header p {
 grid-column: 1/5;
 text-align: center;
-background: linear-gradient(0.25turn, #b1d3d3, #faf2d6, #ffffff, #faf2d6, #b1d3d3);
-color: #32292F;
-border: 2px solid #32292f;
+background: linear-gradient(0.25turn, #d8cb89, #ffffff, #d8cb89);
+color: #201e2c;
+border: 2px solid #000000;
 padding: 5px 0px;
-box-shadow: 3px 3px 10px rgb(54, 54, 54);
+box-shadow: 3px 3px 10px #000000;
 }
 
 
 /********** Navigation **********/
 
 nav {
-    background-color: #d7e2e2;
+    background-color: #b7c8d8;
     font-size: 1rem;
     margin: 0 auto;
     padding: 0;
@@ -66,7 +66,7 @@ nav {
 
 .mainMenu a {
     display: block; 
-    color: #000000;
+    color: #201e2c;
     padding: .75rem;
     text-align: center;
     text-decoration: none;
@@ -74,12 +74,12 @@ nav {
 }
 
 .mainMenu .currentpage {
-    color: #833841;
+    background-color: #eaf3fb;
 }
 
 .mainMenu a:hover {
     color: white;
-    background-color: #12202C;
+    background-color: #201e2c;
 }
 
 .responsive li { 
@@ -90,17 +90,33 @@ nav {
 /********************** Body *************/
 body {
     font-family: Lato, sans-serif;
+    max-width: 1260px;
+    margin: 0 auto;
+    background-color: #eaf3fb;
   }
 
 h2 {
     font-family: Lobster Two, cursive;
-    font-size: 26px;
+    font-size: 34px;
+    text-align: center;
+    color: #201e2c;
+    margin: 25px 10px;
 }  
+h3 {
+    color: #201e2c;
+}
+
+img {
+    border-radius: 5px 5px 5px 5px;
+}
+
+.page-intro p {
+    margin: 25px;
+}
 
 .all-images {
     width: 100%;
-    border: 1px solid black;
-    box-shadow: 3px 3px 10px rgb(54, 54, 54);
+    box-shadow: 3px 3px 10px #000000;
     object-fit: cover;
 }
 
@@ -113,9 +129,10 @@ h2 {
 }
 
 .cards {
-    border: 1px solid black;
-    padding: 10px;
-    background-color: white;
+    border: 2px solid #d8cb89;
+    padding: 8px;
+    background-color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
 }  
   
 
@@ -130,14 +147,14 @@ h2 {
 
 footer .foot1 {
     padding: 10px;
-    background-color: #355f5f;
-    color: #ffffff;
+    background-color: #201e2c;
+    color: #d8cb89;
 }
 
 
 footer a {
     text-decoration: none;
-    color: #ffffff;
+    color: #d8cb89;
    
 }
 
@@ -146,11 +163,10 @@ footer .lastline {
     text-align: center;
     font-size:  16px;
     padding: 10px;
-    background-color: #355f5f;
-    color: #ffffff;
+    background: linear-gradient(0.25turn, #d8cb89, #ffffff, #d8cb89);
+    color: #201e2c;
     padding: 10px;
-	text-shadow: 0 3px 3px #32292F;
-    border-top: 1px solid #e5f0f0;
+	border-top: 1px solid #e5f0f0;
 }
 
 
@@ -173,6 +189,34 @@ footer .lastline {
     gap: 15px;
 }
 
+#spotlight p {
+    padding: 15px;
+}
+
+#spotlight a {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.page-intro {
+    margin: 10px;
+}
+
+#resBtn {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px 50px;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #d8cb89;
+    box-shadow: 3px 3px 10px #000000;
+}
+
+#resBtn a {
+    text-decoration: none;
+    color: #000000;
+}
+
 
 /*************************************************/
 /********************** TEMPLES PAGE *************/
@@ -183,9 +227,10 @@ footer .lastline {
 }
 
 .t-cards {
-    border: 1px solid black;
-    padding: 10px 10px 25px 10px;
-    background-color: #9fc6c6;
+    border: 2px solid #b7c8d8;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .t-cards h2 {
@@ -208,19 +253,39 @@ footer .lastline {
 
 .temple-button1, .temple-button2 {
     border: 1px solid black;
-    background-color: white;
+    font-weight: bolder;
+    background-color: #d8cb89;
     padding: 10px;
     margin: 10px;
     border-radius: 5px 5px 5px 5px;
     text-align: center;
+    box-shadow: 3px 3px 10px #000000;
 }
 
 .temple-button1 a, .temple-button2 a {
     text-decoration: none;
+    color: #000000;
+}
+
+.likeBtn {
+    margin: 15px 5px 15px 20px;
 }
 
 .quote {
     margin: 40px;
+}
+
+#resultLayton, #resultOgden, #resultPayson, #resultSaratoga {
+   margin: -35px 50px;
+}
+
+.templeInfo h2 {
+    padding: 30px 10px 10px 10px;
+}
+
+
+#threedayWeather {
+
 }
 
 /*************************************************/
@@ -252,4 +317,6 @@ footer .lastline {
 }
 
 
+/*************************************************/
+/********** ORDINANCES & CLOSURE PAGES ***********/
 

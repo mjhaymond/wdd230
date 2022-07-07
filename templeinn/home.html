@@ -40,7 +40,6 @@
                 <li><a href="reservations.html">Reservations</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
-
         </nav>
 
 
@@ -51,34 +50,46 @@
         <div class="page-intro">
             <h2>Welcome to the Temple Inn and Suites</h2>
             <p>
-                The Temple Inn and Suites is dedicated to providing a beautiful, comfortable, and peaceful
-                place for members of the Church of Jesus Christ to stay when attending or serving in the
-                temple. Our Inn is pleased to provide specialized services unique to temple attendance such
-                as a shuttle service, child care, and changing rooms to temple patrons. Allow us to
-                serve you and your temple attendance needs at the Temple Inn and Suites.
+                The Temple Inn and Suites provides a beautiful, comfortable, and peaceful
+                place for members of the Church of Jesus Christ of Latter-Day Saints to stay
+                when attending or serving in the temple. Our is pleased to provide
+                specialized services unique to temple attendance such as a shuttle service,
+                child care, and changing rooms to temple patrons. Allow us to serve you and
+                your temple attendance needs at the Temple Inn and Suites.
             </p>
         </div>
+
+
         <div class="main-divs" id="home-grid">
-            <div class="cards">
-                <img class="all-images" src="images/SaratogaSpringsUtahTemple.jpg" alt="Saratoga Springs Utah Temple">
+            <div class="t-cards">
+                <div class="cards" id="lightTemple">
+                    <img class="all-images" src="images/SaratogaSpringsUtahTemple.jpg"
+                        alt="Saratoga Springs Utah Temple">
+                </div>
             </div>
-            <div class="cards">
-                <h2>Temple Spotlight</h2>
-                <h3>Saratoga Springs Utah, USA</h3>
+
+
+            <div class="t-cards" id="spotlight">
+                <h2>Saratoga Springs</h2>
                 <p>The Saratoga Springs Utah Temple was announced on 2 April 2017. The groundbreaking and Site
-                    dedication took place on 19 October 2019 by Elder Craig C. Christensen. At the groundbreaking
-                    Elder Christensen said, "I realized…how this particular temple will bless many individuals
-                    and families... This is the place where your children and families will be
-                    protected from the evils that are ever present in the world today, and to make sacred covenants
-                    with the Lord." This temple is not yet complete, but is scheduled to be dedicated sometime in
-                    2022.
+                    dedication took place on 19 October 2019 by Elder Craig C. Christensen. This temple is not
+                    yet complete, but is scheduled to be dedicated sometime in 2022.
                 </p>
+                <div id="resBtn">
+                    <a href="reservations.html">Make a Reservation</a>
+                </div>
             </div>
-            <div class="cards">
-                <img class="all-images" src="images/SaratogaSpringsUtahTemple3.jpg" alt="Saratoga Springs Temple">
+
+
+            <div class="t-cards">
+                <div class="cards" id="nightTemple">
+                    <img class="all-images" src="images/SaratogaSpringsUtahTemple3.jpg"
+                        alt="Saratoga Springs Temple at night">
+                </div>
             </div>
-            <div class="block weather">
-                <div class="cards" id="currentWeather">
+
+            <div class="t-cards">
+                <div>
                     <div class="today-w"></div>
                     <h2>Current Weather Conditions</h2>
                     <hr>
@@ -87,8 +98,12 @@
                     <p>Condition Description: <span id="con-desc"></span></p>
                     <p>Humidity: <span id="humidity"></span></p>
                 </div>
+            </div>
 
-                <table id="tdf-title">
+
+            <div class="t-cards" id="threedayWeather">
+                <table>
+                    <h2>Three Day Weather Forecast</h2>
                     <tr>
                         <th colspan="3">3 Day Weather Forecast</th>
                     </tr>
@@ -109,11 +124,9 @@
                     </tr>
 
                 </table>
-
-                <div class="cards">
-                    <h2>Three Day Weather Forecast</h2>
-                </div>
             </div>
+
+        </div>
         </div>
     </main>
     <!-- FOOTER HERE -->
