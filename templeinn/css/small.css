@@ -112,6 +112,8 @@ img {
 
 .page-intro p {
     margin: 25px;
+    text-align: center;
+    font-size: 18px;
 }
 
 .all-images {
@@ -319,4 +321,76 @@ footer .lastline {
 
 /*************************************************/
 /********** ORDINANCES & CLOSURE PAGES ***********/
+/*////////////  In a JSON File  /////////////////*/
 
+
+
+/*************************************************/
+/**************** RESERVATION PAGE ***************/
+
+#guestForm {
+    border: 2px solid #b7c8d8;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#guestForm form {
+    padding: 0px 15px 0px 15px;
+}
+
+#guestForm h3 {
+    font-family: Lobster Two, cursive;
+    padding: 20px 0px 10px 0px;
+    font-size: 28px;
+}
+
+.formItem {
+    display: flex;
+    padding: 10px;
+}
+
+.formItem label {
+    flex: 1;
+    padding: 10px 5px 10px 0px;
+    font-size: 18px;
+}
+
+.entrybox {
+    flex: 2;
+    padding: 10px;
+}
+
+hr {
+    margin: 10px 0px;
+    border: 2px solid #b7c8d8;
+}
+
+.dropMenu select {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+}
+
+#location, #checkIn, #checkOut, #roomType, #roomQty {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+#roomsDiv {
+    padding: 20px 15px 0px 15px;
+}
+
+#roomsDiv input {
+    margin: 10px 0px 10px 25px;
+    font-size: 18px;
+}
+
+span #roomQty {
+    padding: 15px;
+}
+
+textarea#commentBox {
+    width: 100%;
+}

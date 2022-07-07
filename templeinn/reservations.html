@@ -48,7 +48,205 @@
 
     <!-- CONTENT HERE -->
     <main>
-        <h2>Make a Reservation</h2>
+        <div class="page-intro">
+            <h2>Make a Reservation</h2>
+            <p>Please fill out the form below and submit your reservation request.</p>
+        </div>
+        <div id="guestForm">
+            <form action="thanks.html">
+                <h3>Guest Information</h3>
+                <div class="formItem">
+                    <label>Full Name: </label><input type="text" class="entrybox" name="firstlast" required
+                        pattern="[A-Za-z ]{5,}" placeholder="Your Full Name">
+                </div>
+                <div class="formItem">
+                    <label>E-mail: </label><input type="text" class="entrybox" name="email" placeholder="Your E-mail">
+                </div>
+                <div class="formItem">
+                    <label>Phone: </label><input type="text" class="entrybox" name="phone"
+                        placeholder="Your Phone Number">
+                </div>
+                <div class="formItem">
+                    <label>Address: </label><input type="text" class="entrybox" name="address"
+                        placeholder="Your Address">
+                </div>
+                <div class="formItem">
+                    <label>City: </label><input type="text" class="entrybox" name="city" placeholder="Your City">
+                </div>
+                <div class="formItem">
+                    <label>State: </label><input type="text" class="entrybox" name="state" placeholder="Your State">
+                </div>
+                <div class="formItem">
+                    <label>Zip: </label><input type="text" class="entrybox" name="zipcode" placeholder="Your Zip Code">
+                </div>
+
+                <h3>Room Information</h3>
+                <div class="dropMenu">
+                    <label for="location" id="location">Hotel Location: </label><br>
+                    <select name="location">
+                        <option value="select" selected disabled>Select a Location</option>
+                        <option value="Saratoga Springs">Saratoga Springs Utah</option>
+                        <option value="Payson">Payson Utah</option>
+                        <option value="Ogden">Ogden Utah</option>
+                        <option value="Layton">Layton Utah</option>
+                    </select>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div class="dropMenu">
+                    <label for="checkInMonth" id="checkIn">Check In: </label><br>
+                    <label for="checkInMonth">Month</label>
+                    <select name="checkInMonth">
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select><br>
+                    <label for="checkInDay" id="checkInDay">Day</label>
+                    <select name="checkInDay">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select><br>
+                    <label for="checkInYear" id="checkInYear">Year</label>
+                    <select name="checkInYear">
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                        <option>2025</option>
+                        <option>2026</option>
+                    </select>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div class="dropMenu">
+                    <label for="checkOut" id="checkOut">Check Out: </label><br>
+                    <label for="checkOutMonth">Month</label>
+                    <select name="checkOutMonth">
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select><br>
+                    <label for="checkOutDay">Day</label>
+                    <select name="checkOutDay">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select><br>
+                    <label for="checkOutYear">Year</label>
+                    <select name="checkOutYear">
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                        <option>2025</option>
+                        <option>2026</option>
+                    </select>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div class="dropMenu" id="roomType">
+                    <label for="roomType">Room Type: </label><br>
+                    <select name="roomType">
+                        <option value="select" selected disabled>Select Room Type</option>
+                        <option value="1 King Bed">1 King Bed</option>
+                        <option value="2 Queen Beds">2 Queen Beds</option>
+                        <option value="1 Bedroom Suite w/Kitchen">1 Bedroom Suite w/Kitchen</option>
+                        <option value="2 Bedroom Suite w/Kitchen">2 Bedroom Suite w/Kitchen</option>
+                    </select>
+                </div>
+                <div id="roomsDiv">
+                    <span id="roomQty">Number of Rooms: </span><br>
+                    <input type="radio" name="room" value="1" checked>1<br>
+                    <input type="radio" name="room" value="2">2<br>
+                    <input type="radio" name="room" value="3">3<br>
+                    <input type="radio" name="room" value="4">4<br>
+                    <input type="radio" name="room" value="5">5<br>
+                </div>
+                <h3>Requests & Comments: </h3>
+                <div>
+                    <textarea name="comments" id="commentBox" cols="60" rows="10">Comment here...</textarea>
+                </div>
+                <div>
+                    <input type="submit" value="submit room request" class="submitForm">
+                </div>
+            </form>
+        </div>
     </main>
     <!-- FOOTER HERE -->
     <footer>
