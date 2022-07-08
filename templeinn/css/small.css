@@ -336,7 +336,7 @@ footer .lastline {
 }
 
 #guestForm form {
-    padding: 0px 15px 0px 15px;
+    padding: 0px 15px 25px 15px;
 }
 
 #guestForm h3 {
@@ -393,4 +393,14 @@ span #roomQty {
 
 textarea#commentBox {
     width: 100%;
+    margin: 0px 0px 15px 0px;
+}
+
+input.submitForm {
+    display: block;
+    margin: 0 auto;
+    padding: 2% 4%;
+    font-size: 18px;
+    background-color: #d8cb89;
+    box-shadow: 3px 3px 10px #000000;
 }

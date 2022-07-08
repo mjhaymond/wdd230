@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <meta name="description" content="Thank you page for making a reservation." />
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lobster+Two&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+</head>
+
+<!-- HEADER HERE -->
+
+<body>
+    <header>
+
+        <div class="heading">
+            <img src="images/TempleInn.png" alt="Logo for The Temple Inn and Suites">
+            <h1>Temple Inn and Suites</h1>
+            <p>
+                <span id="currentDate"></span>
+            </p>
+        </div>
+        <nav>
+            <ul class="mainMenu">
+                <li class="menubutton"><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="temples.html">Temples</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="reservations.html" class="currentpage">Reservations</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+        </nav>
+
+
+    </header>
+
+    <!-- CONTENT HERE -->
+    <main>
+        <h2>Thank You</h2>
+        <p>Your reservation is complete. A conformation e-mail will be sent shortly to confirm your
+            reservation and provide details about your stay. If you have any questions or concerns
+            please feel free to contact us. Thank you for choosing the Temple Inn and Suites.</p>
+    </main>
+    <!-- FOOTER HERE -->
+    <footer>
+        <div class="foot1">
+            <div>
+                <ul class="page-list">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="reception.html">Reception Information</a></li>
+                    <li><a href="missionary.html">Full-Time Temple Missionaries</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </div>
+            <div class="address">
+                <h3><b>Temple Inn and Suites</b></h3>
+                <p>
+                    4800 Montgomery Ln #300<br>
+                    Bethesda, MD 20814<br><br>
+                    <a href="https://goo.gl/maps/7t7mKauFCyAYHscX8">
+                        <i class="material-icons">&#xe567;</i>Location Map</a>
+                </p>
+                <br>
+                <p>
+                    customerservice@templeinn.com<br>
+                    (000)999-9999
+                </p>
+            </div>
+            <div class="weather-api">
+                <a href="https://openweathermap.org//">OpenWeatherMap.org</a>
+            </div>
+            <div class="social">
+                <a href="https://facebook.com" target="blank"><img src="images/facebook.png" alt="Facebook Logo"
+                        width="25"></a>
+                <a href="https://instagram.com" target="blank"><img src="images/instagram.png" alt="Linkedin Logo"
+                        width="25"></a>
+                <a href="https://twitter.com" target="blank"><img src="images/twitter.png" alt="Facebook Logo"
+                        width="25"></a>
+            </div>
+        </div>
+        <p class="lastline">
+            &copy;<span id="currentYear"></span> Mount Saratoga Chamber |
+            Merry Haymond | WDD 230 Final Project | Last Updated: <span id="updatedDate"></span>
+        </p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
