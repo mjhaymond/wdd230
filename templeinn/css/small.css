@@ -353,12 +353,21 @@ footer .lastline {
 .formItem label {
     flex: 1;
     padding: 10px 5px 10px 0px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .entrybox {
     flex: 2;
     padding: 10px;
+    font-size: 16px;
+}
+
+input.entrybox:required {
+    border-left: #c95d5d solid 6px;
+}
+
+input.entrybox:required:valid {
+    border-left: #529d52 solid 6px;
 }
 
 hr {
@@ -399,8 +408,52 @@ textarea#commentBox {
 input.submitForm {
     display: block;
     margin: 0 auto;
-    padding: 2% 4%;
+    padding: 1.5% 4%;
     font-size: 18px;
     background-color: #d8cb89;
     box-shadow: 3px 3px 10px #000000;
+}
+
+/*************************************************/
+/****************** THANKS PAGE ******************/
+
+#thanks-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin: 25px;
+}
+
+/*************************************************/
+/**************** SERVICES PAGE ******************/
+
+#amenities-grid, #specialized-grid {
+    display: grid;
+    gap: 15px;
+}
+
+
+#amenities-list ul, #specialized-list ul {
+    margin: 0px 15px 0px 25px;
+}
+
+#amenities {
+    margin-bottom: 20px;
+}
+
+#special-Btn1, #special-Btn2 {
+    border: 1px solid black;
+    font-weight: bolder;
+    background-color: #d8cb89;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    box-shadow: 3px 3px 10px #000000;
+}
+
+#special-Btn1 a, #special-Btn2 a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #201e2c;
 }

@@ -66,6 +66,55 @@
 }
 
 
+/*************************************************/
+/**************** RESERVATION PAGE ***************/
+
+#guestForm {
+    margin: 20px 150px;
+}
+
+
+/*************************************************/
+/****************** THANKS PAGE ******************/
+
+#thanks-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin: 25px;
+}
+
+/*************************************************/
+/**************** SERVICES PAGE ******************/
+
+#amenities-grid {
+    grid-template-columns: 1fr 1fr;
+}
+
+#amenities-list {
+    grid-column: 1/2;
+    margin: 0px 20px;
+    
+}
+
+
+#specialized-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr .5fr;
+}
+
+#specialized-list {
+    grid-column: 1/4;
+}
+
+#specializedBtns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 60px;
+}
+
+
+
 
 
 

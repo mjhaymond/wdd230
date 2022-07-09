@@ -96,8 +96,43 @@
 }
 
 
+/*************************************************/
+/**************** RESERVATION PAGE ***************/
+
+#guestForm {
+    margin: 20px 350px;
+}
 
 
+/*************************************************/
+/****************** THANKS PAGE ******************/
+
+#thanks-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+/*************************************************/
+/**************** SERVICES PAGE ******************/
+
+#amenities-list, #specialized-list {
+    font-size: 22px;
+    margin: 35px 80px;
+}
+
+#specialized-list h2 {
+    margin: 20px;
+}
+
+#specialized-list {
+    font-size: 22px;
+    margin: 0px 20px 20px 20px;
+}
+
+#specializedBtns {
+    margin: 10px 160px;
+}
 
 
 
