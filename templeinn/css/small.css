@@ -328,21 +328,19 @@ footer .lastline {
 /*************************************************/
 /**************** RESERVATION PAGE ***************/
 
-#guestForm {
+.guestForm {
     border: 2px solid #b7c8d8;
     background-color: #ffffff;
     margin: 20px;
     border-radius: 5px 5px 5px 5px;
 }
 
-#guestForm form {
+.guestForm form {
     padding: 0px 15px 25px 15px;
 }
 
-#guestForm h3 {
-    font-family: Lobster Two, cursive;
+.guestForm h3 {
     padding: 20px 0px 10px 0px;
-    font-size: 28px;
 }
 
 .formItem {
@@ -456,4 +454,37 @@ input.submitForm {
     text-decoration: none;
     font-size: 18px;
     color: #201e2c;
+}
+
+/*************************************************/
+/***************** CONTACT PAGE ******************/
+
+#contact-grid {
+    display: grid;
+    gap: 10px;
+}
+
+.contact-div p {
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+#contact-info {
+    margin: 20px;
+}
+
+#hotel-img {
+    margin: 0px 20px 20px 20px;
+} 
+
+.contact-div {
+    margin: 0px 20px 0px 20px;
+    background-color: #ffffff;
+    border: 2px solid #b7c8d8;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#contactBox {
+    margin: 20px;
+    border-radius: 5px 5px 5px 5px;
 }

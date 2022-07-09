@@ -51,14 +51,59 @@
         <div>
             <div class="page-intro">
                 <h2>Contact Us</h2>
-                <h3>Temple Inn and Suites</h3>
-                <p>4800 Montgomery Ln #300<br>
-                    Bethesda, MD 20814</p>
-                <p>(000)999-9999</p>
-                <p>customerservice@templeinn.com</p>
+                <p>If you have questions, comments or concerns, please feel free to contact us by phone,
+                    e-mail, or by filling out the form below and we will get back to as soon as we are able.
+                </p>
             </div>
-            <div>
-                <img src="images/WhiteHotel1.jpg" alt="">
+
+            <div id="contact-grid">
+
+                <div class="t-cards" id="hotel-img">
+                    <div class="cards">
+                        <img class="all-images" src="images/WhiteHotel.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="contact-div" id="contact-div1">
+                    <h2>Temple Inn and Suites</h2>
+                    <div id="contact-info">
+                        <p>4800 Montgomery Ln #300<br>
+                            Bethesda, MD 20814<br>
+                        </p>
+                        <p><a href="https://goo.gl/maps/RUY86Yp9Eiqg8TVx9">
+                                <i class="material-icons">&#xe567;</i>Location Map</a>
+                        </p>
+                        <p>(000)999-9999</p>
+                        <p>customerservice@templeinn.com</p>
+                    </div>
+                </div>
+
+                <div class="guestForm" id="contact-div2">
+                    <form action="contactthanks.html">
+                        <h2>Contact Us</h2>
+                        <h3>Guest Information</h3>
+                        <div class="formItem">
+                            <label>Full Name: </label><input type="text" class="entrybox" name="firstlast" required
+                                pattern="[A-Za-z ]{5,}" placeholder="Your Full Name">
+                        </div>
+                        <div class="formItem">
+                            <label>Phone #: </label><input type="text" class="entrybox" name="phone"
+                                placeholder="Your Cell Number" required>
+                        </div>
+                        <div class="formItem">
+                            <label>E-mail: </label><input type="text" class="entrybox" name="email"
+                                placeholder="Your E-mail" required>
+                        </div>
+                        <h3>Questions & Comments: </h3>
+                        <div>
+                            <textarea name="comments" id="commentBox" cols="60" rows="10">Comment here...</textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Submit Contact Form" class="submitForm">
+                            <a href="contactthanks.html"></a>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
 
@@ -83,7 +128,7 @@
                 <p>
                     4800 Montgomery Ln #300<br>
                     Bethesda, MD 20814<br><br>
-                    <a href="https://goo.gl/maps/7t7mKauFCyAYHscX8">
+                    <a href="https://goo.gl/maps/RUY86Yp9Eiqg8TVx9">
                         <i class="material-icons">&#xe567;</i>Location Map</a>
                 </p>
                 <br>
