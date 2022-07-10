@@ -91,7 +91,7 @@
     margin: 35px 200px;
 }
 
-#back-button a {
+#back-button {
     margin: 200px;
 }
 
@@ -99,7 +99,7 @@
 /*************************************************/
 /**************** RESERVATION PAGE ***************/
 
-#guestForm {
+.guestForm {
     margin: 20px 350px;
 }
 
@@ -134,6 +134,30 @@
     margin: 10px 160px;
 }
 
+
+/*************************************************/
+/***************** CONTACT PAGE ******************/
+
+#contact-grid {
+    margin: 0px 100px;
+}
+
+#contact-div1 {
+    margin: 0px 20px 0px 0px;
+    padding: 20px 20px 20px 30px;
+}
+
+#contact-div2 {
+    margin: 0px 260px 20px 260px;
+}
+
+#contact-div1 p {
+    font-size: 24px;
+}
+
+.page-intro {
+    margin: 10px 100px;
+}
 
 
 

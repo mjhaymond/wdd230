@@ -100,7 +100,7 @@ h2 {
     font-size: 34px;
     text-align: center;
     color: #201e2c;
-    margin: 25px 10px;
+    margin: 20px 10px;
 }  
 h3 {
     color: #201e2c;
@@ -157,7 +157,10 @@ footer .foot1 {
 footer a {
     text-decoration: none;
     color: #d8cb89;
-   
+}
+
+footer a:hover {
+    color: #eaf3fb;
 }
 
 
@@ -195,33 +198,39 @@ footer .lastline {
     padding: 15px;
 }
 
-#spotlight a {
-    font-size: 18px;
-    font-weight: bolder;
-}
-
 .page-intro {
     margin: 10px;
 }
 
+#callActionBtn {
+    display: grid;
+   
+}
+
 #resBtn {
-    border: 1px solid black;
+    border: 1px solid #000000;
     padding: 10px;
-    margin: 20px 50px;
     text-align: center;
     border-radius: 5px 5px 5px 5px;
     background-color: #d8cb89;
     box-shadow: 3px 3px 10px #000000;
+    text-decoration: none;
+    color: #201e2c;
+    font-weight: bolder;
+    margin: 10px 30px;
 }
 
-#resBtn a {
-    text-decoration: none;
-    color: #000000;
+#resBtn:hover {
+    background-color: #201e2c;
+    color: #ffffff;
 }
 
 
 /*************************************************/
 /********************** TEMPLES PAGE *************/
+.buttonHover {
+    background-color: #c95d5d;
+}
 
 #temple-grid {
     display: grid;
@@ -250,10 +259,10 @@ footer .lastline {
 
 .templeBtn-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 
-.temple-button1, .temple-button2 {
+.templeButtons {
     border: 1px solid black;
     font-weight: bolder;
     background-color: #d8cb89;
@@ -262,11 +271,13 @@ footer .lastline {
     border-radius: 5px 5px 5px 5px;
     text-align: center;
     box-shadow: 3px 3px 10px #000000;
+    text-decoration: none;
+    color: #201e2c;
 }
 
-.temple-button1 a, .temple-button2 a {
-    text-decoration: none;
-    color: #000000;
+.templeBtn-grid .templeButtons:hover {
+    background-color: #201e2c;
+    color: #ffffff;
 }
 
 .likeBtn {
@@ -286,20 +297,23 @@ footer .lastline {
 }
 
 
-#threedayWeather {
-
-}
 
 /*************************************************/
 /********** ORDINANCES SCHEDULE PAGE *************/
 
-#back-button a {
+#back-button {
     margin: 25px;
     text-decoration: none;
     border: 1px solid black;
-    padding: 10px;
+    padding: 5px 10px;
     border-radius: 5px 5px 5px 5px;
-    background-color: #acdbac;
+    background-color: #d8cb89;
+    color: #201e2c;
+}
+
+#back-button:hover {
+    background-color: #201e2c;
+    color: #ffffff;
 }
 
 #json-divs {
@@ -370,7 +384,7 @@ input.entrybox:required:valid {
 
 hr {
     margin: 10px 0px;
-    border: 2px solid #b7c8d8;
+    border: 2px solid #d8cb89;
 }
 
 .dropMenu select {
@@ -412,6 +426,11 @@ input.submitForm {
     box-shadow: 3px 3px 10px #000000;
 }
 
+input.submitForm:hover {
+    background-color: #201e2c;
+    color: #ffffff;
+}
+
 /*************************************************/
 /****************** THANKS PAGE ******************/
 
@@ -439,6 +458,30 @@ input.submitForm {
     margin-bottom: 20px;
 }
 
+#specializedBtns {
+    display: grid;
+    gap: 15px;
+}
+
+.special-Btn {
+    border: 1px solid black;
+    font-weight: bolder;
+    background-color: #d8cb89;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    box-shadow: 3px 3px 10px #000000;
+    text-decoration: none;font-size: 18px;
+    color: #201e2c;
+}
+
+.special-Btn:hover {
+    background-color: #201e2c;
+    color: #ffffff;
+}
+
+/*
 #special-Btn1, #special-Btn2 {
     border: 1px solid black;
     font-weight: bolder;
@@ -455,7 +498,7 @@ input.submitForm {
     font-size: 18px;
     color: #201e2c;
 }
-
+*/
 /*************************************************/
 /***************** CONTACT PAGE ******************/
 
