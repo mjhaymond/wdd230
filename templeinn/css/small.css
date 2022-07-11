@@ -481,24 +481,7 @@ input.submitForm:hover {
     color: #ffffff;
 }
 
-/*
-#special-Btn1, #special-Btn2 {
-    border: 1px solid black;
-    font-weight: bolder;
-    background-color: #d8cb89;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px 5px 5px 5px;
-    text-align: center;
-    box-shadow: 3px 3px 10px #000000;
-}
 
-#special-Btn1 a, #special-Btn2 a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #201e2c;
-}
-*/
 /*************************************************/
 /***************** CONTACT PAGE ******************/
 
@@ -530,4 +513,43 @@ input.submitForm:hover {
 #contactBox {
     margin: 20px;
     border-radius: 5px 5px 5px 5px;
+}
+
+/*************************************************/
+/*************** RECEPTION PAGE ******************/
+
+.reception-grid1 {
+    display: grid;
+    gap: 15px;
+    margin: 15px;
+}
+
+.reception-grid2 {
+    display: grid;
+    gap: 15px;
+    margin: 15px;   
+}
+
+#weddingPkg {
+    padding: 0px 15px;
+    margin: 20px;
+}
+
+#receptionContactBtn {
+    display: grid;
+    border: 1px solid black;
+    font-weight: bolder;
+    background-color: #d8cb89;
+    padding: 10px;
+    margin: 0px 100px 30px 100px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    box-shadow: 3px 3px 10px #000000;
+    text-decoration: none;font-size: 18px;
+    color: #201e2c;
+}
+
+#receptionContactBtn:hover {
+background-color: #201e2c;
+color: #ffffff;
 }

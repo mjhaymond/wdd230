@@ -117,7 +117,6 @@
 /***************** CONTACT PAGE ******************/
 
 #contact-grid {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: .5fr .5fr;
     gap: 15Px;
@@ -139,7 +138,25 @@
 }
 
 
+/*************************************************/
+/*************** RECEPTION PAGE ******************/
 
+.reception-grid1 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.reception-grid2 {
+    grid-template-columns: 1fr 1fr; 
+}
+
+#weddingPkg {
+    padding: 0px 15px;
+    margin: 40px;
+}
+
+#receptionContactBtn {
+    margin: 0px 300px 30px 300px;
+}
 
 
 

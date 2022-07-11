@@ -160,6 +160,16 @@
 }
 
 
+/*************************************************/
+/*************** RECEPTION PAGE ******************/
+
+.reception-grid2 {
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+
+#receptionContactBtn {
+    margin: 0px 500px 30px 500px;
+}
 
 
 
