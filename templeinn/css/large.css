@@ -116,9 +116,49 @@
 /*************************************************/
 /**************** SERVICES PAGE ******************/
 
+#specializedImg-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#amenities-grid {
+     margin: 0px 130px;
+}
+
+#amenities-list {
+    font-size: 20px;
+}
+
+#specialized-list {
+    font-size: 20px;
+    margin: 0px 30px 30px 30px;
+}
+
+
+/*
+#amenities-grid {
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 50px;
+}
+
 #amenities-list, #specialized-list {
-    font-size: 22px;
-    margin: 35px 80px;
+    font-size: 20px;
+    margin: 35px 0px 0px 50px;
+}
+
+#kitchenetteImg {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+#chilcareImg {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+#receptionImg {
+    grid-row: 2/3;
+    grid-column: 3/4;
 }
 
 #specialized-list h2 {
@@ -126,14 +166,14 @@
 }
 
 #specialized-list {
-    font-size: 22px;
-    margin: 0px 20px 20px 20px;
+    font-size: 20px;
+    margin: 10px 20px 0px 20px;
 }
 
 #specializedBtns {
     margin: 10px 160px;
 }
-
+*/
 
 /*************************************************/
 /***************** CONTACT PAGE ******************/
@@ -168,7 +208,23 @@
 }
 
 #receptionContactBtn {
-    margin: 0px 500px 30px 500px;
+    margin: 0px 400px 30px 400px;
+}
+
+
+/*************************************************/
+/*************** MISSIONARY PAGE *****************/
+
+#missionaryDiv-grid {
+    margin: 0px 95px;
+}
+
+#mission4 {
+    display: none;
+}
+
+#bedroom-info {
+    margin: 20px 0px;
 }
 
 

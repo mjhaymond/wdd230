@@ -34,7 +34,7 @@
         <nav>
             <ul class="mainMenu">
                 <li class="menubutton"><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
-                <li><a href="home.html" class="currentpage">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li><a href="temples.html">Temples</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="reservations.html">Reservations</a></li>
@@ -48,7 +48,114 @@
 
     <!-- CONTENT HERE -->
     <main>
-        <h2>Full-Time Temple Missionaries</h2>
+        <div class="page-intro">
+            <h2>Full-Time Temple Missionaries</h2>
+            <p>We are grateful for your desire to serve the Lord as full-time missionaries in the temple.
+                The Temple Inn and Suites offers one bedroom and two bedroom suites with extended living
+                space for Long-term living. We want you to have all the comforts of home while serving
+                away from home.
+            </p>
+        </div>
+
+        <div id="missionaryDiv-grid">
+            <div id="mission-grid1">
+                <div class="t-cards" id="mission1">
+                    <div class="cards">
+                        <img class="all-images" src="images/HotelLivingRoom.jpg" alt="Hotel Living Room">
+                    </div>
+                </div>
+                <div class="t-cards" id="mission2">
+                    <div class="cards">
+                        <img class="all-images" src="images/kitchenette.jpg" alt="Hotel Kitchen">
+                    </div>
+                </div>
+                <div class="t-cards" id="mission3">
+                    <div class="cards">
+                        <img class="all-images" src="images/HotelBathroom.jpg" alt="Hotel Bathroom">
+                    </div>
+                </div>
+                <div class="t-cards" id="mission4">
+                    <div class="cards">
+                        <img class="all-images" src="images/Balcony.jpg" alt="Hotel Balcony">
+                    </div>
+                </div>
+            </div>
+            <div id="bedroom-info">
+                <div class="suite-info">
+                    <h2>One Bedroom Suite</h2>
+                    <ul>
+                        <li>600 square feet of living space</li>
+                        <li>Sleeps 1-4 people with sofa sleeper</li>
+                        <li>Bedroom is separate from living room and kitchen</li>
+                        <li>Spacious living room with sofa bed</li>
+                        <li>Fully equipped kitchen with dining room table</li>
+                        <li>Wood floors throughout kitchen and living space</li>
+                        <li>Office space and desk in the bedroom</li>
+                        <li>Beautiful bathroom, with large shower and his and her sinks</li>
+                        <li>Luxury bedding and linens</li>
+                        <li>Free WiFi Access</li>
+                        <li>TV's in living room and the bedroom</li>
+                        <li>Private Balcony</li>
+                    </ul>
+                </div>
+                <div id="mission5">
+                    <div class="cards">
+                        <img class="all-images" src="images/hotelroom.jpg" alt="Hotel Bedroom">
+                    </div>
+                </div>
+                <div class="suite-info">
+                    <h2>Two Bedroom Suite</h2>
+                    <ul>
+                        <li>750 square feet of living space</li>
+                        <li>Sleeps4-6 people</li>
+                        <li>Bedrooms are separate from the living room and kitchen</li>
+                        <li>Spacious living room with sofa bed</li>
+                        <li>Fully equipped kitchen with dining room table</li>
+                        <li>Wood floors throughout kitchen and living space</li>
+                        <li>Office space and desk in the bedroom</li>
+                        <li>Beautiful bathroom, with large shower and his and her sinks</li>
+                        <li>Luxury bedding and linens</li>
+                        <li>Free WiFi Access</li>
+                        <li>TV's in living room and the bedrooms</li>
+                        <li>Private Balcony</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-intro">
+            <h2>Want to Know More</h2>
+            <p>If you have question about our full-time missionary suites please fill out the contact
+                form below with any questions or comments you may have and we will get back to you soon.
+            </p>
+        </div>
+        <div class="guestForm" id="contact-div2">
+            <form action="contactthanks.html">
+                <h2>Contact Us</h2>
+                <h3>Guest Information</h3>
+                <div class="formItem">
+                    <label>Full Name: </label><input type="text" class="entrybox" name="firstlast" required
+                        pattern="[A-Za-z ]{5,}" placeholder="Your Full Name">
+                </div>
+                <div class="formItem">
+                    <label>Phone #: </label><input type="text" class="entrybox" name="phone"
+                        placeholder="Your Cell Number" required>
+                </div>
+                <div class="formItem">
+                    <label>E-mail: </label><input type="text" class="entrybox" name="email" placeholder="Your E-mail"
+                        required>
+                </div>
+                <h3>Questions & Comments: </h3>
+                <div>
+                    <textarea name="comments" id="commentBox" cols="60" rows="10">Comment here...</textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Submit Contact Form" class="submitForm">
+                    <a href="contactthanks.html"></a>
+                </div>
+            </form>
+        </div>
+
     </main>
     <!-- FOOTER HERE -->
     <footer>

@@ -119,7 +119,7 @@ img {
 .all-images {
     width: 100%;
     box-shadow: 3px 3px 10px #000000;
-    object-fit: cover;
+    /*object-fit: cover;*/
 }
 
 .page-intro {
@@ -132,7 +132,7 @@ img {
 
 .cards {
     border: 2px solid #d8cb89;
-    padding: 8px;
+    padding: 10px;
     background-color: #ffffff;
     border-radius: 5px 5px 5px 5px;
 }  
@@ -239,7 +239,7 @@ footer .lastline {
 
 .t-cards {
     border: 2px solid #b7c8d8;
-    padding: 15px;
+    padding: 10px;
     background-color: #ffffff;
     border-radius: 5px 5px 5px 5px;
 }
@@ -444,9 +444,12 @@ input.submitForm:hover {
 /*************************************************/
 /**************** SERVICES PAGE ******************/
 
-#amenities-grid, #specialized-grid {
+#amenities-grid, #specializedImg-grid {
     display: grid;
     gap: 15px;
+}
+#amenities-list, #specialized-list {
+    margin-bottom: 20px;
 }
 
 
@@ -491,28 +494,12 @@ input.submitForm:hover {
 }
 
 .contact-div p {
-    padding: 10px 15px;
+    padding: 10px 0px 10px 40px;
     font-size: 18px;
 }
 
-#contact-info {
-    margin: 20px;
-}
-
 #hotel-img {
-    margin: 0px 20px 20px 20px;
-} 
-
-.contact-div {
-    margin: 0px 20px 0px 20px;
-    background-color: #ffffff;
-    border: 2px solid #b7c8d8;
-    border-radius: 5px 5px 5px 5px;
-}
-
-#contactBox {
-    margin: 20px;
-    border-radius: 5px 5px 5px 5px;
+    margin: 0px 20px;
 }
 
 /*************************************************/
@@ -532,7 +519,7 @@ input.submitForm:hover {
 
 #weddingPkg {
     padding: 0px 15px;
-    margin: 20px;
+    margin: 20px 20px 20px 40px;
 }
 
 #receptionContactBtn {
@@ -553,3 +540,28 @@ input.submitForm:hover {
 background-color: #201e2c;
 color: #ffffff;
 }
+
+#weddingPkg li {
+   padding: 10px;
+}
+
+/*************************************************/
+/*************** MISSIONARY PAGE *****************/
+
+#mission-grid1 {
+    display: grid;
+    gap: 15px;
+    margin: 20px;
+}
+
+.suite-info {
+    margin: 0px 20px 20px 25px;
+}
+
+#bedroom-info {
+    margin: 20px;
+    background-color: #ffffff;
+    border: 2px solid #b7c8d8;
+    padding: 0px 15px 20px 15px;
+}
+
