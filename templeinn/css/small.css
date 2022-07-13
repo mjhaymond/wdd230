@@ -565,3 +565,11 @@ color: #ffffff;
     padding: 0px 15px 20px 15px;
 }
 
+
+/*************************************************/
+/***************** RESOURCE PAGE *****************/
+.resource-div {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
