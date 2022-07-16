@@ -23,7 +23,7 @@ h1 {
     font-family: Lobster Two, cursive;
     color: #d8cb89;
     text-align: center;
-    font-size: 38px;
+    font-size: 2.7rem;
     padding: 20px;
 }
 
@@ -97,7 +97,7 @@ body {
 
 h2 {
     font-family: Lobster Two, cursive;
-    font-size: 34px;
+    font-size: 2.0rem;
     text-align: center;
     color: #201e2c;
     margin: 20px 10px;
@@ -137,8 +137,9 @@ img {
     border-radius: 5px 5px 5px 5px;
 }  
   
-
-
+li {
+    line-height: 1.5rem;
+}
 /********************** Footer *************/
 
 .page-list, .address, .weather-api, .urlsite {
@@ -539,10 +540,6 @@ input.submitForm:hover {
 #receptionContactBtn:hover {
 background-color: #201e2c;
 color: #ffffff;
-}
-
-#weddingPkg li {
-   padding: 10px;
 }
 
 /*************************************************/

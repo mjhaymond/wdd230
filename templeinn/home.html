@@ -91,37 +91,32 @@
                     <div class="today-w"></div>
                     <h2>Current Weather Conditions</h2>
                     <hr>
-                    <span id="iconsrc"><img id="weather-icon" src="" alt="" /></span>
-                    <p>Temperature: <span id="temp"></span></p>
-                    <p>Condition Description: <span id="con-desc"></span></p>
-                    <p>Humidity: <span id="humidity"></span></p>
+                    <p>Currently: <span id="currently"></span></p>
+                    <p>Temperature: <span id="temperature"></span>&#176;F</p>
+                    <p>Humidity: <span id="humidity"></span>%</p>
                 </div>
             </div>
 
 
             <div class="t-cards" id="threedayWeather">
-                <table>
-                    <h2>Three Day Weather Forecast</h2>
-                    <tr>
-                        <th colspan="3">3 Day Weather Forecast</th>
-                    </tr>
-                    <tr>
-                        <th class="day"></th>
-                        <th class="day"></th>
-                        <th class="day"></th>
-                    </tr>
-                    <tr>
-                        <td class="f-icon"><img src="#" alt="" class="w-icon"></td>
-                        <td class="f-icon"><img src="#" alt="" class="w-icon"></td>
-                        <td class="f-icon"><img src="#" alt="" class="w-icon"></td>
-                    </tr>
-                    <tr>
-                        <td class="d-temp"></td>
-                        <td class="d-temp"></td>
-                        <td class="d-temp"></td>
-                    </tr>
-
-                </table>
+                <h2>Three Day Weather Forecast</h2>
+                <div class="forecastdiv">
+                    <div class="forecasts">
+                        <div id="day1"></div>
+                        <img src="#" alt="" id="img1">
+                        <div id="temperature1"></div>
+                    </div>
+                    <div class="forecasts">
+                        <div id="day2"></div>
+                        <img src="#" alt="" id="img2">
+                        <div id="temperature2"></div>
+                    </div>
+                    <div class="forecasts">
+                        <div id="day3"></div>
+                        <img src="#" alt="" id="img3">
+                        <div id="temperature3"></div>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -174,6 +169,7 @@
         </p>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 
 </html>
