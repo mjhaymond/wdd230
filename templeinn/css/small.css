@@ -425,6 +425,7 @@ input.submitForm {
     font-size: 18px;
     background-color: #d8cb89;
     box-shadow: 3px 3px 10px #000000;
+    border-radius: 5px 5px 5px 5px;
 }
 
 input.submitForm:hover {
