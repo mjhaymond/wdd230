@@ -59,6 +59,10 @@
 #temple-grid {
     grid-template-columns: 1fr 1fr; 
 }
+ .quote {
+    margin: 40px 100px;
+ }
+
 
 /*************************************************/
 /********** ORDINANCES SCHEDULE PAGE *************/
@@ -67,8 +71,10 @@
     margin: 35px 150px;
 }
 
+#back-button {
+    margin: 25px 25px 25px 150px;
+}
 
-/*************************************************/
 /**************** RESERVATION PAGE ***************/
 
 .guestForm {
