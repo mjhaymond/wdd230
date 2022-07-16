@@ -110,9 +110,8 @@
 }
 
 #specializedBtns {
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 10px 60px;
+    margin: 10px 60px 30px 60px;
 }
 
 

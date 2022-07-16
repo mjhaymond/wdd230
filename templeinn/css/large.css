@@ -20,12 +20,8 @@
     flex-direction: row;
 }
 
-.mainMenu a {
-    text-decoration: none;
-    color: #000000;
-    font-size: 1.5em;            
+.mainMenu a {           
     width: 100%;
-    text-align: center;
     padding: 1.5rem;
 }    
 
@@ -119,7 +115,6 @@
 /**************** SERVICES PAGE ******************/
 
 #specializedImg-grid {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -128,14 +123,17 @@
 }
 
 #amenities-list {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #specialized-list {
-    font-size: 20px;
+    font-size: 18px;
     margin: 0px 30px 30px 30px;
 }
 
+#specializedBtns {
+    margin: 10px 80px 30px 140px;
+}
 
 /*************************************************/
 /***************** CONTACT PAGE ******************/

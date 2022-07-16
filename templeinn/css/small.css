@@ -125,7 +125,7 @@ img {
 }
 
 .page-intro {
-    margin: 30px;
+    margin: 10px;
 }  
 
 .main-divs {
@@ -203,10 +203,6 @@ footer .lastline {
     padding: 15px;
 }
 
-.page-intro {
-    margin: 10px;
-}
-
 #callActionBtn {
     display: grid;
    
@@ -244,7 +240,7 @@ footer .lastline {
 
 .t-cards {
     border: 2px solid #b7c8d8;
-    padding: 10px 10px 30px 10px;
+    padding: 10px;
     background-color: #ffffff;
     border-radius: 5px 5px 5px 5px;
 }
@@ -470,6 +466,7 @@ input.submitForm:hover {
 #specializedBtns {
     display: grid;
     gap: 15px;
+    margin-bottom: 30px;
 }
 
 .special-Btn {
