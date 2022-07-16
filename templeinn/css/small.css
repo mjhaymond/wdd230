@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-/************** Header ************/
+/**********************************************/
+/******************** Header ******************/
 header img {
     width: 15%;
     display: block;
@@ -38,7 +39,8 @@ box-shadow: 3px 3px 10px #000000;
 }
 
 
-/********** Navigation **********/
+/**********************************************/
+/***************** Navigation *****************/
 
 nav {
     background-color: #b7c8d8;
@@ -87,7 +89,8 @@ nav {
 }
 
 
-/********************** Body *************/
+/**********************************************/
+/********************** Body ******************/
 body {
     font-family: Lato, sans-serif;
     max-width: 1260px;
@@ -119,7 +122,6 @@ img {
 .all-images {
     width: 100%;
     box-shadow: 3px 3px 10px #000000;
-    /*object-fit: cover;*/
 }
 
 .page-intro {
@@ -140,7 +142,9 @@ img {
 li {
     line-height: 1.5rem;
 }
-/********************** Footer *************/
+
+/**********************************************/
+/********************** Footer ****************/
 
 .page-list, .address, .weather-api, .urlsite {
     list-style: none;

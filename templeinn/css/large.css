@@ -1,9 +1,11 @@
 @media only screen and (min-width: 1000px) {
 
+/**********************************************/
+/******************* Header *******************/
 
-/************** Header ************/
 
-/************** Navigation ************/
+/**********************************************/
+/****************** Navigation ****************/
 
 .mainMenu li:first-child { 
     display: none;	
@@ -27,12 +29,12 @@
     padding: 1.5rem;
 }    
 
-/********************** Body *************/
+/**********************************************/
+/********************** Body ******************/
 
 
-
-/************** Footer ************/
-
+/**********************************************/
+/******************* Footer *******************/
 
 
 /**********************************************/
@@ -67,7 +69,7 @@
 
 
 /**********************************************/
-/********************** TEMPLES PAGE *************/
+/******************* TEMPLES PAGE *************/
 
 #temple-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr; 
@@ -79,8 +81,8 @@
 }
 
 
-/*************************************************/
-/********** ORDINANCES SCHEDULE PAGE *************/
+/*********************************************/
+/******** ORDINANCES SCHEDULE PAGE ***********/
 
 #ordinance-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -89,10 +91,6 @@
 
 #json-divs {
     margin: 35px 200px;
-}
-
-#back-button {
-    margin: 200px;
 }
 
 
@@ -134,46 +132,6 @@
     margin: 0px 30px 30px 30px;
 }
 
-
-/*
-#amenities-grid {
-    grid-template-columns: 1fr 1fr;
-    margin: 0px 50px;
-}
-
-#amenities-list, #specialized-list {
-    font-size: 20px;
-    margin: 35px 0px 0px 50px;
-}
-
-#kitchenetteImg {
-    grid-row: 2/3;
-    grid-column: 1/2;
-}
-
-#chilcareImg {
-    grid-row: 2/3;
-    grid-column: 2/3;
-}
-
-#receptionImg {
-    grid-row: 2/3;
-    grid-column: 3/4;
-}
-
-#specialized-list h2 {
-    margin: 20px;
-}
-
-#specialized-list {
-    font-size: 20px;
-    margin: 10px 20px 0px 20px;
-}
-
-#specializedBtns {
-    margin: 10px 160px;
-}
-*/
 
 /*************************************************/
 /***************** CONTACT PAGE ******************/
