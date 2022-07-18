@@ -105,10 +105,11 @@ h2 {
     color: #201e2c;
     margin: 20px 10px;
 }  
+/*
 h3 {
     color: #201e2c;
 }
-
+*/
 img {
     border-radius: 5px 5px 5px 5px;
 }
@@ -226,6 +227,13 @@ footer .lastline {
     color: #ffffff;
 }
 
+#guestForm {
+    border: 2px solid #b7c8d8;
+    background-color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    margin: 20px;
+    padding: 15px;
+}
 
 /*************************************************/
 /********************** TEMPLES PAGE *************/
