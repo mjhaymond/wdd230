@@ -233,7 +233,12 @@ footer .lastline {
     padding: 10px;
 }
 
-
+.forecasts {
+    border: 2px solid #b7c8d8;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+    margin: 10px;
+}
 
 #guestForm {
     border: 2px solid #b7c8d8;
